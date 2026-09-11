@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.2",
   "status": "planning_only_no_runner",
   "created_at": "2026-09-11",
   "seed": 20260911,
@@ -46,6 +46,28 @@
     "paid_stages_currency": null,
     "paid_stages_money_limit": null,
     "paid_stages_require_model_and_budget_configuration": true
+  },
+  "benchmark_extension": {
+    "scope": "benchmarks_only_no_policy_change",
+    "memora": {
+      "repository": "https://github.com/geniesinc/Memora",
+      "commit": null,
+      "period": "weekly",
+      "max_questions": 30,
+      "development_personas": 2,
+      "test_personas": 2,
+      "max_questions_per_persona": 8,
+      "max_development_questions": 14,
+      "max_test_questions": 16,
+      "split_unit": "persona_across_all_periods",
+      "judge_mode": "single_judge_pilot_with_human_audit",
+      "metrics": ["MPA", "FAA", "FAMA", "stale_trait_exposure"],
+      "share_existing_api_and_token_budget": true,
+      "expose_gold_operations_to_agent": false,
+      "expose_future_questions_to_memory_policy": false,
+      "run_after_core_pilot": true
+    },
+    "memoryagentbench": {"status": "candidate_only_not_scheduled", "subset": "FactConsolidation"}
   },
   "execution": {
     "scheduler": null,

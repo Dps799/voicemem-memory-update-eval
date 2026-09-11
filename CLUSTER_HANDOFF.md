@@ -2,6 +2,8 @@
 
 本包是待实现的测评规范，不含已可执行的评测脚本，也没有已完成的实验结果。先阅读 [实验计划](EXPERIMENT_PLAN.md)。
 
+新增 benchmark 接入见 [扩展说明](BENCHMARK_ADDENDUM.md)。Memora 属于阶段 B/C 后的可选验证，共享已有总预算；先审计 schema、时间与判分极性，不直接全量运行。
+
 ## 执行任务顺序
 
 1. 在目标 Git 仓库中新建实验分支和隔离环境；读取该仓库 AGENTS.md。固定 VoiceMem commit，不改主工作树。
@@ -69,5 +71,7 @@ experiments/voicemem-memory-update/
 - [ ] 不把历史保留误报成错误，检查的是“旧状态是否被当成当前状态”。
 - [ ] 费用、失败和排除样本均可追溯；未执行阶段有状态说明。
 - [ ] 报告指出是否仅改阈值就足够，及哪些假设被数据否定。
+- [ ] Memora gold 操作与未来问题未进入写入策略；判分按 expected_answer 比较，未把所有 yes 当作正确。
+- [ ] Memora 的 FAMA 按问题计算后取均值；无遗忘条件的问题与真正含遗忘条件的问题分开报告。
 
 首次 Git 提交建议标题：`docs: plan VoiceMem trait merge and update evaluation`。推送目标由用户提供的仓库地址决定；本地计划完成不代表已经提交或启动集群。

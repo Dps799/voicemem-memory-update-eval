@@ -5,6 +5,7 @@
 目标：检验右脑基于向量相似度的判断合并是否误合并不同含义的条目，以及偏好改变后旧判断是否继续影响回复。不预设 VoiceMem 一定失败。
 
 - [实验计划](EXPERIMENT_PLAN.md)：假设、数据、对照、指标、停止条件。
+- [Benchmark 扩展说明](BENCHMARK_ADDENDUM.md)：Memora 数据接入、FAMA 判分和其他更新评测的适用边界。
 - [远端执行交接](CLUSTER_HANDOFF.md)：实施顺序、产物、资源与验收。
 - [计划配置](plan_config.json)：供后续执行器实现时读取的配置草案；当前没有实现配套执行器。
 

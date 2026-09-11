@@ -2,6 +2,8 @@
 
 日期：2026-09-11。状态：拟执行，非实验报告。
 
+Benchmark 扩展见 [BENCHMARK_ADDENDUM.md](BENCHMARK_ADDENDUM.md)：新增 Memora 小规模验证，不改变阶段 A 的 600 对目标、算法对照组或现有总调用预算。
+
 ## 1. 研究问题与证据边界
 
 本研究有可执行的低成本起点，但现象严重程度尚未测量。核心问题：同一用户、同一类别内，仅用语义向量相似度决定是否复用旧判断，是否会把逻辑不等价的判断及证据合并；发生偏好变化后，系统是否仍使用失效的旧判断？
@@ -34,6 +36,7 @@
 | PersonaMem-v2 | 核心偏好更新及对话重放 | preference、preference_updates、对话和 QA | 英文合成数据；更新对不等于同义合并标签，需人工复核 |
 | PersonaMem-v1 | 可选外部验证 | 最新偏好、完整演变、变化原因等问题 | 不直接提供本实验全部中间过程标签 |
 | LongMemEval cleaned | 外部更新验证 | knowledge-update、single-session-preference、时间与答案 | 通用事实更新不等于情感更新；oracle 会话需重新按时间排序 |
+| Memora weekly（扩展） | 失效记忆使用与有效记忆保留 | memory_presence、forgetting_absence、问题日期及证据 | 只评回答是否遵守有效状态，不证明物理删除或情绪自然消退 |
 | OCNLI | 中文矛盾压力测试 | entailment / contradiction / neutral | 蕴含不等于等价；开发集有标签，测试标签不公开 |
 | PAWS-X | 同义与高词汇重叠非同义对照 | paraphrase / non-paraphrase | 通用句对与人格短语有域差异，不能估计真实写入频率 |
 

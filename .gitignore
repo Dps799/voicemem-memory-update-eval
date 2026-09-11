@@ -1,0 +1,15 @@
+# Local experiment artifacts and credentials
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+data/
+outputs/
+checkpoints/
+models/
+*.sqlite
+*.sqlite3
+*.db
+*.log

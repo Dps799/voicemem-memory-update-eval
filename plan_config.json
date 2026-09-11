@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1",
+  "status": "planning_only_no_runner",
+  "created_at": "2026-09-11",
+  "seed": 20260911,
+  "upstream": {
+    "url": "https://github.com/xzf-thu/VoiceMem",
+    "commit": null,
+    "require_pinned_commit": true
+  },
+  "models": {
+    "embedding": {"expected_family": "intfloat/multilingual-e5-small", "revision": null, "verify_actual_callback": true},
+    "extractor": null,
+    "relation_judge": null,
+    "answerer": null,
+    "secondary_embedding": null
+  },
+  "sampling": {
+    "development_fraction_by_group": 0.5,
+    "personamem_v2_update_pairs": 200,
+    "pawsx_zh_equivalent_pairs": 100,
+    "pawsx_zh_nonequivalent_pairs": 100,
+    "ocnli_zh_contradiction_pairs": 200,
+    "reverse_pair_order": true,
+    "reverse_order_is_independent_sample": false,
+    "replay_test_episodes": 50,
+    "external_validation_max_questions": 50
+  },
+  "policies": {
+    "primary": "upstream_default",
+    "threshold_candidates": [0.95, 0.97, 0.99],
+    "maximum_equivalent_recall_drop_percentage_points": 5,
+    "random_control_seeds": [20260911, 20260912, 20260913]
+  },
+  "statistics": {"confidence_level": 0.95, "group_bootstrap_replicates": 2000},
+  "resources": {
+    "phase_a_cpus": 8,
+    "phase_a_ram_gb": 16,
+    "phase_a_walltime_hours": 4,
+    "phase_a_requires_gpu": false,
+    "phase_a_generative_api_calls": 0,
+    "optional_gpu_requested_memory_gb": 8,
+    "storage_budget_gb": 10,
+    "paid_stages_max_api_calls_including_retries": 2000,
+    "paid_stages_max_input_output_tokens": 5000000,
+    "paid_stages_currency": null,
+    "paid_stages_money_limit": null,
+    "paid_stages_require_model_and_budget_configuration": true
+  },
+  "execution": {
+    "scheduler": null,
+    "output_root": null,
+    "submit_jobs": false,
+    "run_training": false,
+    "run_audio_pipeline": false
+  }
+}

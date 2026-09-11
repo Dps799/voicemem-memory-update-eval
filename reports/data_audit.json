@@ -1,0 +1,69 @@
+{
+  "audit_date": "2026-09-11",
+  "status": "schemas_verified_small_sample_pending",
+  "sources": [
+    {
+      "name": "OCNLI",
+      "purpose": "中文矛盾压力测试 (contradiction pairs)",
+      "repo_commit": "b53efde",
+      "license": "CC BY-NC 2.0",
+      "license_note": "Non-commercial; use labeled dev set; exclude '-' no-consensus labels per plan",
+      "file": "data/ocnli/dev.json",
+      "format": "JSONL (one JSON object per line)",
+      "total_rows": 3000,
+      "fields": ["level","sentence1","sentence2","label","label0","label1","label2","label3","label4","genre","prem_id","id"],
+      "label_distribution": {"entailment": 947, "neutral": 1103, "contradiction": 900, "-": 50},
+      "usable_contradiction": 900,
+      "target": 200,
+      "sufficient": true,
+      "exclusion_rule": "Drop label='-' (50 rows, no annotator consensus). Drop non-contradiction for primary contradiction test set.",
+      "grouping_unit": "prem_id",
+      "verified": true
+    },
+    {
+      "name": "PAWS-X-zh",
+      "purpose": "同义与高词汇重叠非同义对照",
+      "repo_revision": "4cd8187c404bda33cb1f62b49b001115862acf37",
+      "license": "Google dataset license (free use any purpose, AS IS)",
+      "file": "zh/validation-00000-of-00001.parquet",
+      "format": "parquet",
+      "total_rows": 2000,
+      "fields": ["id","sentence1","sentence2","label"],
+      "label_distribution": {"1_paraphrase": 853, "0_nonparaphrase": 1147},
+      "target_equivalent": 100,
+      "target_nonequivalent": 100,
+      "sufficient": true,
+      "domain_gap_note": "Generic sentence pairs differ from personality short-phrases; cannot estimate real write frequency. Used as forced same-slot stress test.",
+      "verified": true
+    },
+    {
+      "name": "PersonaMem-v2",
+      "purpose": "核心偏好更新及对话重放",
+      "repo_revision": "ed956dea41521fc4499acbc63f966e0fd3c053ba",
+      "license": "CC BY 4.0",
+      "file": "data/raw_data/*.json",
+      "format": "json",
+      "personas": 999,
+      "persona_fields": ["short_persona","name","age","gender","personality","education","occupation","demographics","stereotypical_preferences","anti_stereotypical_preferences","neutral_preferences","therapy_background","preference_updates","conversations","sensitive_information"],
+      "preference_updates_type": "dict keyed by preference description; value contains old/new update details",
+      "conversations_types": ["personal_email","professional_email","creative_writing","professional_writing","chat_message","translation","trouble_consult","social_media_post","knowledge_query","multimodal"],
+      "pii_warning": "sensitive_information contains PII (address, email, phone, SSN, etc) — must NOT enter git or memory store",
+      "english_synthetic_note": "English synthetic data; update pairs != same-merge labels; require human review",
+      "target_update_pairs": 200,
+      "target_personas_min": 100,
+      "sufficient": true,
+      "verified": true
+    },
+    {
+      "name": "Memora",
+      "purpose": "失效记忆使用与有效记忆保留 (benchmark extension)",
+      "status": "not_downloaded_first_batch",
+      "license": "Apache 2.0 (per README, verify on download)",
+      "note": "Optional extension after phases B/C. Run after core pilot. Shares existing API+token budget."
+    }
+  ],
+  "schema_check_protocol": "Use 10 items per source not entering formal set to check schema before fixed random seed sampling",
+  "split_rule": "PersonaMem by persona, OCNLI by prem_id, PAWS-X by traceable original pair. ~half dev, half locked test. Same group + paraphrases/translations cannot cross sets.",
+  "dedup_rule": "Record candidate total, dedup, and filter rule before formal sampling. Do not duplicate samples to fill quota.",
+  "verified_at": "2026-09-11"
+}

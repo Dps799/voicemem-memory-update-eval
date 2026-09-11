@@ -5,11 +5,11 @@
   "seed": 20260911,
   "upstream": {
     "url": "https://github.com/xzf-thu/VoiceMem",
-    "commit": null,
+    "commit": "a450911fc8cbb44c46d810aace2f3288bad287e4",
     "require_pinned_commit": true
   },
   "models": {
-    "embedding": {"expected_family": "intfloat/multilingual-e5-small", "revision": null, "verify_actual_callback": true},
+    "embedding": {"expected_family": "intfloat/multilingual-e5-small", "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3", "verify_actual_callback": true},
     "extractor": null,
     "relation_judge": null,
     "answerer": null,
@@ -70,10 +70,17 @@
     "memoryagentbench": {"status": "candidate_only_not_scheduled", "subset": "FactConsolidation"}
   },
   "execution": {
-    "scheduler": null,
-    "output_root": null,
+    "scheduler": "direct_bash_no_scheduler",
+    "output_root": "/quark_speech_nas_zjk/users/wangyuhan/experiments/voicemem-memory-update-eval",
     "submit_jobs": false,
     "run_training": false,
-    "run_audio_pipeline": false
+    "run_audio_pipeline": false,
+    "phase_a_status": "smoke_complete_n42",
+    "phase_a_b0_fmr": 0.4286,
+    "phase_a_b0_emr": 1.0,
+    "phase_a_b0_temporal_merge_rate": 0.5,
+    "phase_b_status": "blocked_no_extractor_model",
+    "phase_c_status": "blocked_no_answerer_model",
+    "m1_status": "blocked_no_relation_judge_model"
   }
 }

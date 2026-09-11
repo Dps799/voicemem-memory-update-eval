@@ -31,6 +31,7 @@ from e5_callback import (  # noqa: E402
     precompute_embeddings,
 )
 import traits_store  # noqa: E402  for monkeypatching MERGE_THRESHOLD
+from traits_store import _now  # noqa: E402
 
 SEED = 20260911
 PAIRS_FILE = Path(__file__).parent.parent / "manifests" / "pairs_smoke.jsonl"
@@ -38,18 +39,49 @@ OUT_DIR = Path(__file__).parent.parent / "reports"
 
 POLICIES = [
     {"name": "B0_original", "threshold": 0.95},
-    {"name": "B1_exact", "threshold": 1.0},
+    {"name": "B1_exact", "threshold": "string_match"},  # 真正的字符串精确匹配
     {"name": "B2_097", "threshold": 0.97},
     {"name": "B2_099", "threshold": 0.99},
     {"name": "B3_never", "threshold": 2.0},
 ]
 
 
-def make_store(db_path: str, threshold: float) -> TraitStore:
-    """建独立 DB 的 TraitStore，monkeypatch 阈值。"""
-    traits_store.MERGE_THRESHOLD = threshold
-    store = TraitStore(db_path, real_embed)
-    # 记录实际生效阈值
+class B1ExactStore(TraitStore):
+    """B1 精确匹配：规范化后文本完全相同才合并（字符串比较，非余弦阈值=1.0）。
+
+    仍调用原 add()（存储 embedding、evidence 逻辑不变），但 _find_similar
+    改为查询 claim 字段是否完全相同，而非余弦相似度是否 >= 阈值。
+    """
+    _current_claim: str | None = None
+
+    def add(self, user_id, slot, claim, ev):
+        self._current_claim = normalize_claim(claim)
+        return super().add(user_id, slot, claim, ev)
+
+    def _find_similar(self, user_id, slot, vec):
+        """字符串精确匹配：查同 user + 同 slot + claim 完全相同。"""
+        claim = self._current_claim
+        if not claim:
+            return None
+        with self._conn() as c:
+            row = c.execute(
+                "SELECT id FROM rb_traits "
+                "WHERE user_id=? AND slot=? AND claim=?",
+                (user_id, slot, claim),
+            ).fetchone()
+        return row["id"] if row else None
+
+
+def make_store(db_path: str, threshold) -> TraitStore:
+    """建独立 DB 的 TraitStore，monkeypatch 阈值。
+
+    B1 用字符串精确匹配（B1ExactStore），其余用余弦阈值。
+    """
+    if threshold == "string_match":
+        store = B1ExactStore(db_path, real_embed)
+    else:
+        traits_store.MERGE_THRESHOLD = threshold
+        store = TraitStore(db_path, real_embed)
     store._effective_threshold = threshold
     return store
 

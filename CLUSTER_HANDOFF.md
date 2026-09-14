@@ -4,6 +4,8 @@
 
 新增 benchmark 接入见 [扩展说明](BENCHMARK_ADDENDUM.md)。Memora 属于阶段 B/C 后的可选验证，共享已有总预算；先审计 schema、时间与判分极性，不直接全量运行。
 
+下一轮执行以 [NEXT_PHASE_PLAN.md](NEXT_PHASE_PLAN.md) 的 T0–T7 为准；先完成 CPU 数据与检索阶段，完整问答按模型和预算门槛启动。
+
 ## 执行任务顺序
 
 1. 在目标 Git 仓库中新建实验分支和隔离环境；读取该仓库 AGENTS.md。固定 VoiceMem commit，不改主工作树。

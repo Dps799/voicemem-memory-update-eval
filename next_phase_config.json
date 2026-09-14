@@ -1,0 +1,148 @@
+{
+  "schema_version": "next-phase-plan-1",
+  "status": "planned_not_executed",
+  "protocol": "NEXT_PHASE_PLAN.md",
+  "evidence_commit": "452f295b734647c9417ed27cb9ef5e99b5bf0ff2",
+  "runner_support": "Existing runners execute smoke only; next-phase runners are not yet implemented.",
+  "data": {
+    "target_pairs": 600,
+    "personamem_updates": 200,
+    "personamem_min_personas_target": 100,
+    "personamem_max_pairs_per_persona": 2,
+    "pawsx_equivalent": 100,
+    "pawsx_nonequivalent": 100,
+    "ocnli_contradiction": 200,
+    "development_fraction_target": 0.5,
+    "sampling_seed": 20260914,
+    "exclude_prior_smoke_groups": true,
+    "two_independent_annotators_required_for_confirmatory_labels": true,
+    "lock_all_test_configs_before_viewing_test_outputs": true
+  },
+  "n1": {
+    "primary_policies": [
+      "B0",
+      "B1",
+      "B2_dev_selected",
+      "B3",
+      "C1_dev_calibrated"
+    ],
+    "c1_seeds": [
+      20260911,
+      20260912,
+      20260913
+    ],
+    "nonrandom_directions": [
+      "ab",
+      "ba"
+    ],
+    "c1_directions": [
+      "ab"
+    ],
+    "maximum_pair_records_excluding_controls": 7800
+  },
+  "n2": {
+    "development_personas_target": 12,
+    "test_episodes_target": 50,
+    "test_personas_minimum": 25,
+    "questions_per_episode": {
+      "current": 2,
+      "historical": 1,
+      "unchanged": 1
+    },
+    "primary_policies": [
+      "B0",
+      "S_dev_selected",
+      "O_filter_diagnostic_only"
+    ],
+    "background_counts": [
+      20,
+      100
+    ],
+    "diagnostic_context_tokens": [
+      128,
+      256,
+      512
+    ],
+    "diagnostic_tokenizer": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "answerer_tokens_require_repacking": true,
+    "maximum_primary_retrieval_records": 3600,
+    "full_pipeline_status": "conditional_on_complete_upstream_integration_and_model_configuration"
+  },
+  "n3": {
+    "conditional_on_development_evidence": true,
+    "test_personas_target": 25,
+    "controlled_event_lengths": [
+      40,
+      160
+    ],
+    "checkpoints": [
+      20,
+      40,
+      80,
+      160
+    ],
+    "deduplicate_shared_prefix_checkpoints": true,
+    "questions_per_checkpoint": 3,
+    "deployable_policies_maximum": 4,
+    "budget_pairs_storage_context": [
+      [
+        1024,
+        256
+      ],
+      [
+        2048,
+        256
+      ],
+      [
+        4096,
+        256
+      ],
+      [
+        2048,
+        128
+      ],
+      [
+        2048,
+        512
+      ]
+    ],
+    "maximum_primary_retrieval_records": 6000,
+    "count_serialized_evidence_and_metadata": true,
+    "report_actual_database_and_index_bytes": true,
+    "evaluation_archive_visible_to_method": false
+  },
+  "n4": {
+    "status": "not_configured",
+    "answerer": null,
+    "relation_judge": null,
+    "extractor": null,
+    "money_currency": null,
+    "money_limit": null,
+    "call_allocations": {
+      "extraction": 150,
+      "relation_diagnostic": 200,
+      "primary_answers": 600,
+      "primary_judges": 600,
+      "repeat_answers": 60,
+      "repeat_judges": 60,
+      "external_answers": 100,
+      "external_judges": 100,
+      "retry_reserve": 130
+    },
+    "total_calls_including_retries_limit": 2000,
+    "total_input_output_tokens_limit": 5000000,
+    "external_questions_shared_limit": 50,
+    "memora_questions_limit_within_shared_budget": 30
+  },
+  "analysis": {
+    "paired_group_bootstrap_replicates": 2000,
+    "confidence_level": 0.95,
+    "primary_storage_context_budget": [
+      2048,
+      256
+    ],
+    "engineering_retention_drop_guardrail_pp": 5,
+    "engineering_stale_exposure_reduction_target_pp": 10,
+    "guardrails_are_not_statistical_noninferiority_claims": true
+  }
+}

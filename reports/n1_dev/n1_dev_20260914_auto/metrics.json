@@ -1,0 +1,1819 @@
+{
+  "label_scope": "original_dataset_proxy_no_human_adjudication",
+  "policies_by_source": {
+    "B0_original": {
+      "OCNLI": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 100,
+          "k": 16,
+          "rate": 0.16,
+          "wilson_95_descriptive_only": [
+            0.10095288487704707,
+            0.24420269391507293
+          ],
+          "n_groups": 100,
+          "group_macro_rate": 0.16,
+          "group_macro_bootstrap_95": [
+            0.09,
+            0.24
+          ]
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 16,
+          "n": 16,
+          "rate": 1.0
+        }
+      },
+      "PAWS-X-zh": {
+        "n_attempted": 101,
+        "n_errors": 0,
+        "FMR": {
+          "n": 49,
+          "k": 33,
+          "rate": 0.673469387755102,
+          "wilson_95_descriptive_only": [
+            0.5337920531122896,
+            0.7879250300043162
+          ],
+          "n_groups": 48,
+          "group_macro_rate": 0.6875,
+          "group_macro_bootstrap_95": [
+            0.5416666666666666,
+            0.8125
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 45,
+          "rate": 0.8653846153846154,
+          "wilson_95_descriptive_only": [
+            0.7472667983152725,
+            0.9332311829568569
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.8653846153846154,
+          "group_macro_bootstrap_95": [
+            0.7692307692307693,
+            0.9423076923076923
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 33,
+          "n": 78,
+          "rate": 0.4230769230769231
+        }
+      },
+      "PersonaMem-v2": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 17,
+          "rate": 0.17,
+          "wilson_95_descriptive_only": [
+            0.1089356611290986,
+            0.2554800476985473
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.17,
+          "group_macro_bootstrap_95": [
+            0.1,
+            0.25
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 17,
+          "n": 17,
+          "rate": 1.0
+        }
+      },
+      "ALL_DIAGNOSTIC_MIX_ONLY": {
+        "n_attempted": 301,
+        "n_errors": 0,
+        "FMR": {
+          "n": 149,
+          "k": 49,
+          "rate": 0.3288590604026846,
+          "wilson_95_descriptive_only": [
+            0.2585564143542879,
+            0.40776448841052404
+          ],
+          "n_groups": 148,
+          "group_macro_rate": 0.3310810810810811,
+          "group_macro_bootstrap_95": [
+            0.25675675675675674,
+            0.41216216216216217
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 45,
+          "rate": 0.8653846153846154,
+          "wilson_95_descriptive_only": [
+            0.7472667983152725,
+            0.9332311829568569
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.8653846153846154,
+          "group_macro_bootstrap_95": [
+            0.7692307692307693,
+            0.9423076923076923
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 17,
+          "rate": 0.17,
+          "wilson_95_descriptive_only": [
+            0.1089356611290986,
+            0.2554800476985473
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.17,
+          "group_macro_bootstrap_95": [
+            0.1,
+            0.25
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 66,
+          "n": 111,
+          "rate": 0.5945945945945946
+        }
+      }
+    },
+    "B1_exact": {
+      "OCNLI": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 100,
+          "k": 0,
+          "rate": 0.0,
+          "wilson_95_descriptive_only": [
+            0.0,
+            0.03699349822370594
+          ],
+          "n_groups": 100,
+          "group_macro_rate": 0.0,
+          "group_macro_bootstrap_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 0,
+          "n": 0,
+          "rate": null
+        }
+      },
+      "PAWS-X-zh": {
+        "n_attempted": 101,
+        "n_errors": 0,
+        "FMR": {
+          "n": 49,
+          "k": 8,
+          "rate": 0.16326530612244897,
+          "wilson_95_descriptive_only": [
+            0.08512698369434094,
+            0.2903633843734241
+          ],
+          "n_groups": 48,
+          "group_macro_rate": 0.16666666666666666,
+          "group_macro_bootstrap_95": [
+            0.0625,
+            0.2708333333333333
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 9,
+          "rate": 0.17307692307692307,
+          "wilson_95_descriptive_only": [
+            0.09382474389961151,
+            0.29730864127795686
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.17307692307692307,
+          "group_macro_bootstrap_95": [
+            0.07692307692307693,
+            0.2692307692307692
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 8,
+          "n": 17,
+          "rate": 0.47058823529411764
+        }
+      },
+      "PersonaMem-v2": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 0,
+          "rate": 0.0,
+          "wilson_95_descriptive_only": [
+            0.0,
+            0.03699349822370594
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.0,
+          "group_macro_bootstrap_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 0,
+          "n": 0,
+          "rate": null
+        }
+      },
+      "ALL_DIAGNOSTIC_MIX_ONLY": {
+        "n_attempted": 301,
+        "n_errors": 0,
+        "FMR": {
+          "n": 149,
+          "k": 8,
+          "rate": 0.053691275167785234,
+          "wilson_95_descriptive_only": [
+            0.027454242688131972,
+            0.10236301354167164
+          ],
+          "n_groups": 148,
+          "group_macro_rate": 0.05405405405405406,
+          "group_macro_bootstrap_95": [
+            0.02027027027027027,
+            0.0945945945945946
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 9,
+          "rate": 0.17307692307692307,
+          "wilson_95_descriptive_only": [
+            0.09382474389961151,
+            0.29730864127795686
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.17307692307692307,
+          "group_macro_bootstrap_95": [
+            0.07692307692307693,
+            0.2692307692307692
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 0,
+          "rate": 0.0,
+          "wilson_95_descriptive_only": [
+            0.0,
+            0.03699349822370594
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.0,
+          "group_macro_bootstrap_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 8,
+          "n": 17,
+          "rate": 0.47058823529411764
+        }
+      }
+    },
+    "B2_097": {
+      "OCNLI": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 100,
+          "k": 4,
+          "rate": 0.04,
+          "wilson_95_descriptive_only": [
+            0.015663303988310957,
+            0.0983707143774985
+          ],
+          "n_groups": 100,
+          "group_macro_rate": 0.04,
+          "group_macro_bootstrap_95": [
+            0.01,
+            0.08
+          ]
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 4,
+          "n": 4,
+          "rate": 1.0
+        }
+      },
+      "PAWS-X-zh": {
+        "n_attempted": 101,
+        "n_errors": 0,
+        "FMR": {
+          "n": 49,
+          "k": 23,
+          "rate": 0.46938775510204084,
+          "wilson_95_descriptive_only": [
+            0.3370350369034265,
+            0.6061913601936432
+          ],
+          "n_groups": 48,
+          "group_macro_rate": 0.4791666666666667,
+          "group_macro_bootstrap_95": [
+            0.3541666666666667,
+            0.625
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 36,
+          "rate": 0.6923076923076923,
+          "wilson_95_descriptive_only": [
+            0.5573041117202364,
+            0.8008527205282527
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.6923076923076923,
+          "group_macro_bootstrap_95": [
+            0.5576923076923077,
+            0.8076923076923077
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 23,
+          "n": 59,
+          "rate": 0.3898305084745763
+        }
+      },
+      "PersonaMem-v2": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 11,
+          "rate": 0.11,
+          "wilson_95_descriptive_only": [
+            0.062541963562421,
+            0.18631296505206962
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.11,
+          "group_macro_bootstrap_95": [
+            0.05,
+            0.17
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 11,
+          "n": 11,
+          "rate": 1.0
+        }
+      },
+      "ALL_DIAGNOSTIC_MIX_ONLY": {
+        "n_attempted": 301,
+        "n_errors": 0,
+        "FMR": {
+          "n": 149,
+          "k": 27,
+          "rate": 0.18120805369127516,
+          "wilson_95_descriptive_only": [
+            0.12763054721823555,
+            0.250810350088767
+          ],
+          "n_groups": 148,
+          "group_macro_rate": 0.18243243243243243,
+          "group_macro_bootstrap_95": [
+            0.12162162162162163,
+            0.24324324324324326
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 36,
+          "rate": 0.6923076923076923,
+          "wilson_95_descriptive_only": [
+            0.5573041117202364,
+            0.8008527205282527
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.6923076923076923,
+          "group_macro_bootstrap_95": [
+            0.5576923076923077,
+            0.8076923076923077
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 11,
+          "rate": 0.11,
+          "wilson_95_descriptive_only": [
+            0.062541963562421,
+            0.18631296505206962
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.11,
+          "group_macro_bootstrap_95": [
+            0.05,
+            0.17
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 38,
+          "n": 74,
+          "rate": 0.5135135135135135
+        }
+      }
+    },
+    "B2_099": {
+      "OCNLI": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 100,
+          "k": 0,
+          "rate": 0.0,
+          "wilson_95_descriptive_only": [
+            0.0,
+            0.03699349822370594
+          ],
+          "n_groups": 100,
+          "group_macro_rate": 0.0,
+          "group_macro_bootstrap_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 0,
+          "n": 0,
+          "rate": null
+        }
+      },
+      "PAWS-X-zh": {
+        "n_attempted": 101,
+        "n_errors": 0,
+        "FMR": {
+          "n": 49,
+          "k": 11,
+          "rate": 0.22448979591836735,
+          "wilson_95_descriptive_only": [
+            0.1302497014796788,
+            0.35878787239394716
+          ],
+          "n_groups": 48,
+          "group_macro_rate": 0.22916666666666666,
+          "group_macro_bootstrap_95": [
+            0.125,
+            0.3541666666666667
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 20,
+          "rate": 0.38461538461538464,
+          "wilson_95_descriptive_only": [
+            0.26470463777758524,
+            0.5204012628733212
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.38461538461538464,
+          "group_macro_bootstrap_95": [
+            0.25,
+            0.5192307692307693
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 11,
+          "n": 31,
+          "rate": 0.3548387096774194
+        }
+      },
+      "PersonaMem-v2": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 7,
+          "rate": 0.07,
+          "wilson_95_descriptive_only": [
+            0.03431926106169558,
+            0.13749514741069152
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.07,
+          "group_macro_bootstrap_95": [
+            0.02,
+            0.13
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 7,
+          "n": 7,
+          "rate": 1.0
+        }
+      },
+      "ALL_DIAGNOSTIC_MIX_ONLY": {
+        "n_attempted": 301,
+        "n_errors": 0,
+        "FMR": {
+          "n": 149,
+          "k": 11,
+          "rate": 0.0738255033557047,
+          "wilson_95_descriptive_only": [
+            0.04172033311082419,
+            0.1273532874995898
+          ],
+          "n_groups": 148,
+          "group_macro_rate": 0.07432432432432433,
+          "group_macro_bootstrap_95": [
+            0.033783783783783786,
+            0.12162162162162163
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 20,
+          "rate": 0.38461538461538464,
+          "wilson_95_descriptive_only": [
+            0.26470463777758524,
+            0.5204012628733212
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.38461538461538464,
+          "group_macro_bootstrap_95": [
+            0.25,
+            0.5192307692307693
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 7,
+          "rate": 0.07,
+          "wilson_95_descriptive_only": [
+            0.03431926106169558,
+            0.13749514741069152
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.07,
+          "group_macro_bootstrap_95": [
+            0.02,
+            0.13
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 18,
+          "n": 38,
+          "rate": 0.47368421052631576
+        }
+      }
+    },
+    "B3_never": {
+      "OCNLI": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 100,
+          "k": 0,
+          "rate": 0.0,
+          "wilson_95_descriptive_only": [
+            0.0,
+            0.03699349822370594
+          ],
+          "n_groups": 100,
+          "group_macro_rate": 0.0,
+          "group_macro_bootstrap_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 0,
+          "n": 0,
+          "rate": null
+        }
+      },
+      "PAWS-X-zh": {
+        "n_attempted": 101,
+        "n_errors": 0,
+        "FMR": {
+          "n": 49,
+          "k": 0,
+          "rate": 0.0,
+          "wilson_95_descriptive_only": [
+            0.0,
+            0.072697819252136
+          ],
+          "n_groups": 48,
+          "group_macro_rate": 0.0,
+          "group_macro_bootstrap_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 0,
+          "rate": 0.0,
+          "wilson_95_descriptive_only": [
+            0.0,
+            0.06879223615392825
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.0,
+          "group_macro_bootstrap_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 0,
+          "n": 0,
+          "rate": null
+        }
+      },
+      "PersonaMem-v2": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 0,
+          "rate": 0.0,
+          "wilson_95_descriptive_only": [
+            0.0,
+            0.03699349822370594
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.0,
+          "group_macro_bootstrap_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 0,
+          "n": 0,
+          "rate": null
+        }
+      },
+      "ALL_DIAGNOSTIC_MIX_ONLY": {
+        "n_attempted": 301,
+        "n_errors": 0,
+        "FMR": {
+          "n": 149,
+          "k": 0,
+          "rate": 0.0,
+          "wilson_95_descriptive_only": [
+            0.0,
+            0.0251336178815093
+          ],
+          "n_groups": 148,
+          "group_macro_rate": 0.0,
+          "group_macro_bootstrap_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 0,
+          "rate": 0.0,
+          "wilson_95_descriptive_only": [
+            0.0,
+            0.06879223615392825
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.0,
+          "group_macro_bootstrap_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 0,
+          "rate": 0.0,
+          "wilson_95_descriptive_only": [
+            0.0,
+            0.03699349822370594
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.0,
+          "group_macro_bootstrap_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 0,
+          "n": 0,
+          "rate": null
+        }
+      }
+    },
+    "C1_random_20260911": {
+      "OCNLI": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 100,
+          "k": 33,
+          "rate": 0.33,
+          "wilson_95_descriptive_only": [
+            0.24563122732353654,
+            0.4269465620725234
+          ],
+          "n_groups": 100,
+          "group_macro_rate": 0.33,
+          "group_macro_bootstrap_95": [
+            0.24,
+            0.42
+          ]
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 33,
+          "n": 33,
+          "rate": 1.0
+        }
+      },
+      "PAWS-X-zh": {
+        "n_attempted": 101,
+        "n_errors": 0,
+        "FMR": {
+          "n": 49,
+          "k": 18,
+          "rate": 0.3673469387755102,
+          "wilson_95_descriptive_only": [
+            0.24665172966251023,
+            0.5073293244247913
+          ],
+          "n_groups": 48,
+          "group_macro_rate": 0.3645833333333333,
+          "group_macro_bootstrap_95": [
+            0.2393229166666667,
+            0.5104166666666666
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 20,
+          "rate": 0.38461538461538464,
+          "wilson_95_descriptive_only": [
+            0.26470463777758524,
+            0.5204012628733212
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.38461538461538464,
+          "group_macro_bootstrap_95": [
+            0.25,
+            0.5192307692307693
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 18,
+          "n": 38,
+          "rate": 0.47368421052631576
+        }
+      },
+      "PersonaMem-v2": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 38,
+          "rate": 0.38,
+          "wilson_95_descriptive_only": [
+            0.29097599250562445,
+            0.47790244706806495
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.38,
+          "group_macro_bootstrap_95": [
+            0.28,
+            0.48
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 38,
+          "n": 38,
+          "rate": 1.0
+        }
+      },
+      "ALL_DIAGNOSTIC_MIX_ONLY": {
+        "n_attempted": 301,
+        "n_errors": 0,
+        "FMR": {
+          "n": 149,
+          "k": 51,
+          "rate": 0.3422818791946309,
+          "wilson_95_descriptive_only": [
+            0.2709204848762805,
+            0.421571327475605
+          ],
+          "n_groups": 148,
+          "group_macro_rate": 0.34121621621621623,
+          "group_macro_bootstrap_95": [
+            0.2635135135135135,
+            0.4190033783783779
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 20,
+          "rate": 0.38461538461538464,
+          "wilson_95_descriptive_only": [
+            0.26470463777758524,
+            0.5204012628733212
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.38461538461538464,
+          "group_macro_bootstrap_95": [
+            0.25,
+            0.5192307692307693
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 38,
+          "rate": 0.38,
+          "wilson_95_descriptive_only": [
+            0.29097599250562445,
+            0.47790244706806495
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.38,
+          "group_macro_bootstrap_95": [
+            0.28,
+            0.48
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 89,
+          "n": 109,
+          "rate": 0.8165137614678899
+        }
+      }
+    },
+    "C1_random_20260912": {
+      "OCNLI": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 100,
+          "k": 40,
+          "rate": 0.4,
+          "wilson_95_descriptive_only": [
+            0.30940128641278775,
+            0.49799741323195335
+          ],
+          "n_groups": 100,
+          "group_macro_rate": 0.4,
+          "group_macro_bootstrap_95": [
+            0.3,
+            0.5
+          ]
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 40,
+          "n": 40,
+          "rate": 1.0
+        }
+      },
+      "PAWS-X-zh": {
+        "n_attempted": 101,
+        "n_errors": 0,
+        "FMR": {
+          "n": 49,
+          "k": 12,
+          "rate": 0.24489795918367346,
+          "wilson_95_descriptive_only": [
+            0.14602345256527974,
+            0.3808631899103
+          ],
+          "n_groups": 48,
+          "group_macro_rate": 0.25,
+          "group_macro_bootstrap_95": [
+            0.14583333333333334,
+            0.375
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 19,
+          "rate": 0.36538461538461536,
+          "wilson_95_descriptive_only": [
+            0.24800699871435944,
+            0.501283218711698
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.36538461538461536,
+          "group_macro_bootstrap_95": [
+            0.23076923076923078,
+            0.5
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 12,
+          "n": 31,
+          "rate": 0.3870967741935484
+        }
+      },
+      "PersonaMem-v2": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 40,
+          "rate": 0.4,
+          "wilson_95_descriptive_only": [
+            0.30940128641278775,
+            0.49799741323195335
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.4,
+          "group_macro_bootstrap_95": [
+            0.3,
+            0.49
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 40,
+          "n": 40,
+          "rate": 1.0
+        }
+      },
+      "ALL_DIAGNOSTIC_MIX_ONLY": {
+        "n_attempted": 301,
+        "n_errors": 0,
+        "FMR": {
+          "n": 149,
+          "k": 52,
+          "rate": 0.348993288590604,
+          "wilson_95_descriptive_only": [
+            0.2771269751881741,
+            0.42845029195724815
+          ],
+          "n_groups": 148,
+          "group_macro_rate": 0.35135135135135137,
+          "group_macro_bootstrap_95": [
+            0.2702702702702703,
+            0.42567567567567566
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 19,
+          "rate": 0.36538461538461536,
+          "wilson_95_descriptive_only": [
+            0.24800699871435944,
+            0.501283218711698
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.36538461538461536,
+          "group_macro_bootstrap_95": [
+            0.23076923076923078,
+            0.5
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 40,
+          "rate": 0.4,
+          "wilson_95_descriptive_only": [
+            0.30940128641278775,
+            0.49799741323195335
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.4,
+          "group_macro_bootstrap_95": [
+            0.3,
+            0.49
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 92,
+          "n": 111,
+          "rate": 0.8288288288288288
+        }
+      }
+    },
+    "C1_random_20260913": {
+      "OCNLI": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 100,
+          "k": 39,
+          "rate": 0.39,
+          "wilson_95_descriptive_only": [
+            0.300168740044523,
+            0.48796982956469226
+          ],
+          "n_groups": 100,
+          "group_macro_rate": 0.39,
+          "group_macro_bootstrap_95": [
+            0.3,
+            0.48
+          ]
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 39,
+          "n": 39,
+          "rate": 1.0
+        }
+      },
+      "PAWS-X-zh": {
+        "n_attempted": 101,
+        "n_errors": 0,
+        "FMR": {
+          "n": 49,
+          "k": 20,
+          "rate": 0.40816326530612246,
+          "wilson_95_descriptive_only": [
+            0.28215238517782715,
+            0.5475268061133816
+          ],
+          "n_groups": 48,
+          "group_macro_rate": 0.3958333333333333,
+          "group_macro_bootstrap_95": [
+            0.25,
+            0.5416666666666666
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 15,
+          "rate": 0.28846153846153844,
+          "wilson_95_descriptive_only": [
+            0.18329960412691187,
+            0.42272788039975
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.28846153846153844,
+          "group_macro_bootstrap_95": [
+            0.17307692307692307,
+            0.4043269230769205
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 20,
+          "n": 35,
+          "rate": 0.5714285714285714
+        }
+      },
+      "PersonaMem-v2": {
+        "n_attempted": 100,
+        "n_errors": 0,
+        "FMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "EMR": {
+          "n": 0,
+          "k": 0,
+          "rate": null,
+          "group_macro_rate": null,
+          "group_macro_bootstrap_95": null,
+          "n_groups": 0
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 44,
+          "rate": 0.44,
+          "wilson_95_descriptive_only": [
+            0.3467202662810177,
+            0.5377189535058269
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.44,
+          "group_macro_bootstrap_95": [
+            0.35,
+            0.53
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 44,
+          "n": 44,
+          "rate": 1.0
+        }
+      },
+      "ALL_DIAGNOSTIC_MIX_ONLY": {
+        "n_attempted": 301,
+        "n_errors": 0,
+        "FMR": {
+          "n": 149,
+          "k": 59,
+          "rate": 0.3959731543624161,
+          "wilson_95_descriptive_only": [
+            0.3210103131782233,
+            0.4761651375219564
+          ],
+          "n_groups": 148,
+          "group_macro_rate": 0.3918918918918919,
+          "group_macro_bootstrap_95": [
+            0.31756756756756754,
+            0.47297297297297297
+          ]
+        },
+        "EMR": {
+          "n": 52,
+          "k": 15,
+          "rate": 0.28846153846153844,
+          "wilson_95_descriptive_only": [
+            0.18329960412691187,
+            0.42272788039975
+          ],
+          "n_groups": 52,
+          "group_macro_rate": 0.28846153846153844,
+          "group_macro_bootstrap_95": [
+            0.17307692307692307,
+            0.4043269230769205
+          ]
+        },
+        "temporal_merge_rate": {
+          "n": 100,
+          "k": 44,
+          "rate": 0.44,
+          "wilson_95_descriptive_only": [
+            0.3467202662810177,
+            0.5377189535058269
+          ],
+          "n_groups": 50,
+          "group_macro_rate": 0.44,
+          "group_macro_bootstrap_95": [
+            0.35,
+            0.53
+          ]
+        },
+        "merged_error_ratio_dataset_proxy": {
+          "k": 103,
+          "n": 118,
+          "rate": 0.8728813559322034
+        }
+      }
+    }
+  },
+  "paired_vs_b0": {
+    "B1_exact": {
+      "OCNLI": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 100,
+        "macro_difference_pp": -16.0,
+        "paired_group_bootstrap_95_pp": [
+          -24.0,
+          -9.0
+        ]
+      },
+      "PAWS-X-zh": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 48,
+        "macro_difference_pp": -52.083333333333336,
+        "paired_group_bootstrap_95_pp": [
+          -66.66666666666666,
+          -37.5
+        ]
+      },
+      "PersonaMem-v2": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 50,
+        "macro_difference_pp": -17.0,
+        "paired_group_bootstrap_95_pp": [
+          -25.0,
+          -10.0
+        ]
+      }
+    },
+    "B2_097": {
+      "OCNLI": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 100,
+        "macro_difference_pp": -12.0,
+        "paired_group_bootstrap_95_pp": [
+          -19.0,
+          -6.0
+        ]
+      },
+      "PAWS-X-zh": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 48,
+        "macro_difference_pp": -20.833333333333336,
+        "paired_group_bootstrap_95_pp": [
+          -33.33333333333333,
+          -10.416666666666668
+        ]
+      },
+      "PersonaMem-v2": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 50,
+        "macro_difference_pp": -6.0,
+        "paired_group_bootstrap_95_pp": [
+          -11.0,
+          -2.0
+        ]
+      }
+    },
+    "B2_099": {
+      "OCNLI": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 100,
+        "macro_difference_pp": -16.0,
+        "paired_group_bootstrap_95_pp": [
+          -24.0,
+          -9.0
+        ]
+      },
+      "PAWS-X-zh": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 48,
+        "macro_difference_pp": -45.83333333333333,
+        "paired_group_bootstrap_95_pp": [
+          -60.416666666666664,
+          -31.25
+        ]
+      },
+      "PersonaMem-v2": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 50,
+        "macro_difference_pp": -10.0,
+        "paired_group_bootstrap_95_pp": [
+          -16.0,
+          -5.0
+        ]
+      }
+    },
+    "B3_never": {
+      "OCNLI": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 100,
+        "macro_difference_pp": -16.0,
+        "paired_group_bootstrap_95_pp": [
+          -24.0,
+          -9.0
+        ]
+      },
+      "PAWS-X-zh": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 48,
+        "macro_difference_pp": -68.75,
+        "paired_group_bootstrap_95_pp": [
+          -81.25,
+          -54.166666666666664
+        ]
+      },
+      "PersonaMem-v2": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 50,
+        "macro_difference_pp": -17.0,
+        "paired_group_bootstrap_95_pp": [
+          -25.0,
+          -10.0
+        ]
+      }
+    },
+    "C1_random_20260911": {
+      "OCNLI": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 100,
+        "macro_difference_pp": 17.0,
+        "paired_group_bootstrap_95_pp": [
+          6.0,
+          28.024999999999867
+        ]
+      },
+      "PAWS-X-zh": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 48,
+        "macro_difference_pp": -32.29166666666667,
+        "paired_group_bootstrap_95_pp": [
+          -50.0,
+          -12.5
+        ]
+      },
+      "PersonaMem-v2": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 50,
+        "macro_difference_pp": 21.0,
+        "paired_group_bootstrap_95_pp": [
+          7.000000000000001,
+          34.0
+        ]
+      }
+    },
+    "C1_random_20260912": {
+      "OCNLI": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 100,
+        "macro_difference_pp": 24.0,
+        "paired_group_bootstrap_95_pp": [
+          12.0,
+          35.0
+        ]
+      },
+      "PAWS-X-zh": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 48,
+        "macro_difference_pp": -43.75,
+        "paired_group_bootstrap_95_pp": [
+          -60.416666666666664,
+          -25.0
+        ]
+      },
+      "PersonaMem-v2": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 50,
+        "macro_difference_pp": 23.0,
+        "paired_group_bootstrap_95_pp": [
+          12.0,
+          34.0
+        ]
+      }
+    },
+    "C1_random_20260913": {
+      "OCNLI": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 100,
+        "macro_difference_pp": 23.0,
+        "paired_group_bootstrap_95_pp": [
+          10.0,
+          35.024999999999864
+        ]
+      },
+      "PAWS-X-zh": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 48,
+        "macro_difference_pp": -29.166666666666668,
+        "paired_group_bootstrap_95_pp": [
+          -47.91666666666667,
+          -8.333333333333332
+        ]
+      },
+      "PersonaMem-v2": {
+        "outcome": "non-equivalent/temporal merge, lower is better",
+        "n_groups": 50,
+        "macro_difference_pp": 27.0,
+        "paired_group_bootstrap_95_pp": [
+          15.0,
+          39.0
+        ]
+      }
+    }
+  },
+  "interval_scope": "development descriptive; grouped resampling; not confirmatory significance tests",
+  "raw_ablation_by_source": {
+    "OCNLI": {
+      "FMR": {
+        "n": 100,
+        "k": 11,
+        "rate": 0.11,
+        "wilson_95_descriptive_only": [
+          0.062541963562421,
+          0.18631296505206962
+        ],
+        "n_groups": 100,
+        "group_macro_rate": 0.11,
+        "group_macro_bootstrap_95": [
+          0.05,
+          0.17
+        ]
+      },
+      "EMR": {
+        "n": 0,
+        "k": 0,
+        "rate": null,
+        "group_macro_rate": null,
+        "group_macro_bootstrap_95": null,
+        "n_groups": 0
+      },
+      "temporal_merge_rate": {
+        "n": 0,
+        "k": 0,
+        "rate": null,
+        "group_macro_rate": null,
+        "group_macro_bootstrap_95": null,
+        "n_groups": 0
+      },
+      "merge_decisions_changed": 5
+    },
+    "PAWS-X-zh": {
+      "FMR": {
+        "n": 49,
+        "k": 45,
+        "rate": 0.9183673469387755,
+        "wilson_95_descriptive_only": [
+          0.8081087240011541,
+          0.9677971823388954
+        ],
+        "n_groups": 48,
+        "group_macro_rate": 0.9375,
+        "group_macro_bootstrap_95": [
+          0.8541666666666666,
+          1.0
+        ]
+      },
+      "EMR": {
+        "n": 52,
+        "k": 50,
+        "rate": 0.9615384615384616,
+        "wilson_95_descriptive_only": [
+          0.8701881083948454,
+          0.9893882890015285
+        ],
+        "n_groups": 52,
+        "group_macro_rate": 0.9615384615384616,
+        "group_macro_bootstrap_95": [
+          0.9038461538461539,
+          1.0
+        ]
+      },
+      "temporal_merge_rate": {
+        "n": 0,
+        "k": 0,
+        "rate": null,
+        "group_macro_rate": null,
+        "group_macro_bootstrap_95": null,
+        "n_groups": 0
+      },
+      "merge_decisions_changed": 21
+    },
+    "PersonaMem-v2": {
+      "FMR": {
+        "n": 0,
+        "k": 0,
+        "rate": null,
+        "group_macro_rate": null,
+        "group_macro_bootstrap_95": null,
+        "n_groups": 0
+      },
+      "EMR": {
+        "n": 0,
+        "k": 0,
+        "rate": null,
+        "group_macro_rate": null,
+        "group_macro_bootstrap_95": null,
+        "n_groups": 0
+      },
+      "temporal_merge_rate": {
+        "n": 100,
+        "k": 17,
+        "rate": 0.17,
+        "wilson_95_descriptive_only": [
+          0.1089356611290986,
+          0.2554800476985473
+        ],
+        "n_groups": 50,
+        "group_macro_rate": 0.17,
+        "group_macro_bootstrap_95": [
+          0.1,
+          0.25
+        ]
+      },
+      "merge_decisions_changed": 0
+    }
+  },
+  "order_state_comparison": {
+    "B0_original": {
+      "n": 301,
+      "merge_decision_different": 0,
+      "stored_state_different": 94
+    },
+    "B1_exact": {
+      "n": 301,
+      "merge_decision_different": 0,
+      "stored_state_different": 0
+    },
+    "B2_097": {
+      "n": 301,
+      "merge_decision_different": 0,
+      "stored_state_different": 57
+    },
+    "B2_099": {
+      "n": 301,
+      "merge_decision_different": 0,
+      "stored_state_different": 21
+    },
+    "B3_never": {
+      "n": 301,
+      "merge_decision_different": 0,
+      "stored_state_different": 0
+    }
+  },
+  "normalization_text_changed": 179,
+  "normalization_collisions": 14,
+  "n_pairs": 301,
+  "n_records": 4515,
+  "n_errors": 0,
+  "n_evidence_link_errors": 0
+}

@@ -13,3 +13,6 @@ models/
 *.sqlite3
 *.db
 *.log
+
+# Superseded local development run: ID-based oracle replaced by claim-based v2.
+reports/n2_dev/n2_dev_20260914_auto/

@@ -1,0 +1,17 @@
+{
+  "head_at_run": "1fd78ab86ea26e6f7c47c23f555539262d1aedcb",
+  "sha256": {
+    "src/run_n2_dev.py": "f4a15b8908e1d9d643ee4fabf20bc8cd961a3a613a42679fef86243d7acb7d0d",
+    "src/run_n1_dev.py": "49f52141f3bbd7b3bead4ec57e279670af3130f124ff8c05eb5d6d5b8de76a5e",
+    "src/upstream_retrieval.py": "ff90e401f8eef48eb71f2987b2a0c7b9e31e7213300659839fc373c92d79aa32",
+    "manifests/n1_effective_manifest.jsonl": "194f1e9c7626c28f07179459fabb80cbb5476efb948e8e04f0cd25af32146e9f",
+    "reports/n2_dev/n2_dev_20260914_auto_v2/metrics.json": "26c1a38746193288f7efba8a69f9485169253902945c3d5291e1634f5fc2767d",
+    "reports/n2_dev/n2_dev_20260914_auto_v2/state_snapshots.jsonl": "4fb478d40f57c585bc642669969036b5bfc9e4f5990bab8d573020248ecdf9c8",
+    "reports/n2_dev/n2_dev_20260914_auto_v2/replay_results.jsonl": "4a2e4e4a48ede2b950ec741ac711baf483d4b1777d1313b6fb8fe55470c3debc",
+    "reports/n2_dev/n2_dev_20260914_auto_v2/episode_manifest.jsonl": "6e1f6d13dbf2b8b92d9b0d78f9b5d4a0bb222e280a8d446ba8e19227e70a82ce"
+  },
+  "status": "completed",
+  "supersedes": "local n2_dev_20260914_auto used ID-based oracle; current version filters actual claim text",
+  "expected_records": 864,
+  "actual_records": 864
+}

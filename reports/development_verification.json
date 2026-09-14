@@ -1,0 +1,11 @@
+{
+  "n1_records": 4515,
+  "n2_records": 864,
+  "execution_errors": 0,
+  "test_inference_count": 0,
+  "generative_api_calls": 0,
+  "all_recorded_hashes_match": true,
+  "all_context_budgets_respected": true,
+  "all_n1_evidence_links_valid": true,
+  "label_mode": "dataset_proxy_and_automatic_structural_checks"
+}

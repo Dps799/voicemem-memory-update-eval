@@ -65,7 +65,7 @@ experiments/voicemem-memory-update/
 ## 验收清单
 
 - [ ] 固定 commit 和数据 revision；没有仅用 main/latest 描述实验。
-- [ ] 双人标注分歧已裁决，用户及原句组不跨开发/测试集合。
+- [ ] 采用 dataset-proxy 标签并通过自动结构审计，用户及原句组不跨开发/测试集合。
 - [ ] 原实现与适配层对同一样本返回一致 ID 和证据链接行为。
 - [ ] 原始文本和规范化文本均保留，能定位丢否定、丢情境等预处理问题。
 - [ ] 各来源分别报告分母、误合并率、同义召回和置信区间。
@@ -82,6 +82,16 @@ experiments/voicemem-memory-update/
 
 1. 先运行 `PYTHON=.venv/bin/python bash scripts/reproduce_smoke.sh`。固定输入下预期 570 条 A 记录、160 条 B 条件记录；这些不是独立样本数。
 2. 不再使用旧版 C1、证据错挂计数或原始 top-5 残留率作为正式结论。当前 B 分别记录数据库链接、claim 内容、画像指导文本暴露；详情见报告。
-3. 正式 B 扩样须按 persona 隔离 dev/test，独立复核规范化后的判断与时间/作用域，并使用真实对话或明确区分的固定抽取输入。
+3. 正式 B 扩样须按 persona 隔离 dev/test，自动检查规范化文本碰撞与时间字段，语义无法确定时保留 unknown，并使用真实对话或明确区分的固定抽取输入。
 4. 下一步增加有竞争性的同领域背景、完整左右脑检索与实际 prompt，固定查询后再比较 token 预算。当前 1/3 条画像上限只是诊断条件，不能宣称已优化有限预算长期记忆。
 5. 模型与 API 预算未配置前可完成上述存储/检索工作；不得伪造回答、M1 或 Memora 分数。原数据审计与新机器环境分别保留来源记录。
+
+## 当前已推进的自动开发阶段
+
+以 [DEVELOPMENT_REPORT](reports/DEVELOPMENT_REPORT.md) 为最新交接；不等待人工标注。
+
+- 不直接按 N0 的 300/300 划分跑模型：先运行 `src/prepare_n1.py`，修复共享原文连通组，读取有效 301/299 manifest。
+- `src/run_n1_dev.py` 已运行开发集；`selection.json` 冻结 B2=0.95 和 C1 开发概率。测试集尚未运行，不能把两个 B2 候选都当已选模型反复测试。
+- `src/run_n2_dev.py` 已跑受控主题探针与背景/上下文预算扫描；oracle 按实际旧 claim 过滤。注意新证据依附于旧 claim，不能只优化旧文本消失率。
+- N3 下一步实施 claim 状态处理与 evidence 保留的分离消融、持久预算和 FIFO/近期性基线；先在开发轨迹确认预算确实触发，再冻结测试配置。
+- N0 的 `reports/next_preflight.json` 与 annotation 模板是历史产物；最新运行环境/哈希位于各 `reports/n1_dev/` 和 `reports/n2_dev/` 的 run 目录。

@@ -1,0 +1,10 @@
+{
+  "status": "dev_selection_only_test_not_run",
+  "selected_b2_threshold": 0.95,
+  "selected_b2_policy": "B0_original",
+  "criterion": "original pre-specified pooled dev non-temporal FMR with EMR >= B0 - 5pp; lower threshold tie break",
+  "c1_rate": 0.3687707641196013,
+  "c1_calibration_n": 301,
+  "manifest_sha256": "194f1e9c7626c28f07179459fabb80cbb5476efb948e8e04f0cd25af32146e9f",
+  "all_later_test_configs_must_be_frozen_before_test_execution": true
+}

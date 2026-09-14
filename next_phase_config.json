@@ -3,7 +3,7 @@
   "status": "planned_not_executed",
   "protocol": "NEXT_PHASE_PLAN.md",
   "evidence_commit": "452f295b734647c9417ed27cb9ef5e99b5bf0ff2",
-  "runner_support": "Existing runners execute smoke only; next-phase runners are not yet implemented.",
+  "runner_support": "N1 development and controlled N2 development runners implemented; formal held-out and N3/N4 runners remain pending.",
   "data": {
     "target_pairs": 600,
     "personamem_updates": 200,
@@ -15,8 +15,12 @@
     "development_fraction_target": 0.5,
     "sampling_seed": 20260914,
     "exclude_prior_smoke_groups": true,
-    "two_independent_annotators_required_for_confirmatory_labels": true,
-    "lock_all_test_configs_before_viewing_test_outputs": true
+    "two_independent_annotators_required_for_confirmatory_labels": false,
+    "lock_all_test_configs_before_viewing_test_outputs": true,
+    "label_policy": "dataset_proxy_plus_automatic_structural_audit",
+    "human_annotation_required": false,
+    "human_adjudication_claims_permitted": false,
+    "user_override_date": "2026-09-14"
   },
   "n1": {
     "primary_policies": [

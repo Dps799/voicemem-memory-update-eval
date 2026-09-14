@@ -1,0 +1,23 @@
+{
+  "cross_split_components_repaired": [
+    {
+      "group_id": "component_2648b9ae0478b0e4",
+      "sample_ids": [
+        "pawsx_ne_5601",
+        "pawsx_ne_791"
+      ],
+      "assigned_split": "dev"
+    }
+  ],
+  "excluded_components": [],
+  "n_pairs": 600,
+  "by_split": {
+    "dev": 301,
+    "test": 299
+  },
+  "n_groups": 496,
+  "policy": "group + NFKC/whitespace/case-normalized shared original text; dev wins; no score-based selection",
+  "scope": "components within committed sample pool; full source-pool duplicates not yet audited",
+  "input_sha256": "0b69857be0233f821f31637a20a25afba180dbfd9a0edf37d080b2be374212a0",
+  "effective_sha256": "194f1e9c7626c28f07179459fabb80cbb5476efb948e8e04f0cd25af32146e9f"
+}

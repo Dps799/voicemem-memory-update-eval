@@ -30,7 +30,7 @@ def wilson_ci(k: int, n: int, conf: float = 0.95) -> list[float]:
 
 
 def main():
-    rows = [json.loads(l) for l in open(PAIR_RESULTS) if l.strip()]
+    rows = [json.loads(l) for l in PAIR_RESULTS.read_text().splitlines() if l.strip()]
     print(f"Loaded {len(rows)} pair results")
 
     # 只看 ab 方向（ba 用于顺序一致性验证，不重复计入主指标）

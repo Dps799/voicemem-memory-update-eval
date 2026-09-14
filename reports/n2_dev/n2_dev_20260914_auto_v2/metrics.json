@@ -1,0 +1,526 @@
+{
+  "scope": "automatic controlled development probes; claim visibility is not semantic answer correctness",
+  "n_episodes": 24,
+  "n_personas": 12,
+  "n_records": 864,
+  "expected_records": 864,
+  "conditions": {
+    "B0_original|current|background=20|budget=128": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 21,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 9,
+        "old_claim_with_new_text_visible": 9
+      },
+      "min_stored_traits": 6,
+      "max_stored_traits": 8,
+      "mean_context_tokens": 109.33333333333333,
+      "n_with_budget_drops": 1
+    },
+    "B0_original|current|background=20|budget=256": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 21,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 9,
+        "old_claim_with_new_text_visible": 9
+      },
+      "min_stored_traits": 6,
+      "max_stored_traits": 8,
+      "mean_context_tokens": 111.20833333333333,
+      "n_with_budget_drops": 0
+    },
+    "B0_original|current|background=20|budget=512": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 21,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 9,
+        "old_claim_with_new_text_visible": 9
+      },
+      "min_stored_traits": 6,
+      "max_stored_traits": 8,
+      "mean_context_tokens": 111.20833333333333,
+      "n_with_budget_drops": 0
+    },
+    "O_filter_diagnostic|current|background=20|budget=128": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 0,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 1,
+        "old_claim_with_new_text_visible": 0
+      },
+      "min_stored_traits": 6,
+      "max_stored_traits": 8,
+      "mean_context_tokens": 113.04166666666667,
+      "n_with_budget_drops": 1
+    },
+    "O_filter_diagnostic|current|background=20|budget=256": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 0,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 1,
+        "old_claim_with_new_text_visible": 0
+      },
+      "min_stored_traits": 6,
+      "max_stored_traits": 8,
+      "mean_context_tokens": 114.91666666666667,
+      "n_with_budget_drops": 0
+    },
+    "O_filter_diagnostic|current|background=20|budget=512": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 0,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 1,
+        "old_claim_with_new_text_visible": 0
+      },
+      "min_stored_traits": 6,
+      "max_stored_traits": 8,
+      "mean_context_tokens": 114.91666666666667,
+      "n_with_budget_drops": 0
+    },
+    "B0_original|historical|background=20|budget=128": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 20,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 6,
+      "max_stored_traits": 8,
+      "mean_context_tokens": 107.33333333333333,
+      "n_with_budget_drops": 1
+    },
+    "B0_original|historical|background=20|budget=256": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 20,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 6,
+      "max_stored_traits": 8,
+      "mean_context_tokens": 109.20833333333333,
+      "n_with_budget_drops": 0
+    },
+    "B0_original|historical|background=20|budget=512": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 20,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 6,
+      "max_stored_traits": 8,
+      "mean_context_tokens": 109.20833333333333,
+      "n_with_budget_drops": 0
+    },
+    "O_filter_diagnostic|historical|background=20|budget=128": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 20,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 6,
+      "max_stored_traits": 8,
+      "mean_context_tokens": 107.33333333333333,
+      "n_with_budget_drops": 1
+    },
+    "O_filter_diagnostic|historical|background=20|budget=256": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 20,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 6,
+      "max_stored_traits": 8,
+      "mean_context_tokens": 109.20833333333333,
+      "n_with_budget_drops": 0
+    },
+    "O_filter_diagnostic|historical|background=20|budget=512": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 20,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 6,
+      "max_stored_traits": 8,
+      "mean_context_tokens": 109.20833333333333,
+      "n_with_budget_drops": 0
+    },
+    "B1_exact_diagnostic|current|background=20|budget=128": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 18,
+        "new_claim_visible": 5,
+        "new_text_visible_verbatim": 5,
+        "old_claim_with_new_text_visible": 5
+      },
+      "min_stored_traits": 22,
+      "max_stored_traits": 22,
+      "mean_context_tokens": 112.04166666666667,
+      "n_with_budget_drops": 0
+    },
+    "B1_exact_diagnostic|current|background=20|budget=256": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 18,
+        "new_claim_visible": 5,
+        "new_text_visible_verbatim": 5,
+        "old_claim_with_new_text_visible": 5
+      },
+      "min_stored_traits": 22,
+      "max_stored_traits": 22,
+      "mean_context_tokens": 112.04166666666667,
+      "n_with_budget_drops": 0
+    },
+    "B1_exact_diagnostic|current|background=20|budget=512": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 18,
+        "new_claim_visible": 5,
+        "new_text_visible_verbatim": 5,
+        "old_claim_with_new_text_visible": 5
+      },
+      "min_stored_traits": 22,
+      "max_stored_traits": 22,
+      "mean_context_tokens": 112.04166666666667,
+      "n_with_budget_drops": 0
+    },
+    "B1_exact_diagnostic|historical|background=20|budget=128": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 19,
+        "new_claim_visible": 8,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 22,
+      "max_stored_traits": 22,
+      "mean_context_tokens": 111.29166666666667,
+      "n_with_budget_drops": 0
+    },
+    "B1_exact_diagnostic|historical|background=20|budget=256": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 19,
+        "new_claim_visible": 8,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 22,
+      "max_stored_traits": 22,
+      "mean_context_tokens": 111.29166666666667,
+      "n_with_budget_drops": 0
+    },
+    "B1_exact_diagnostic|historical|background=20|budget=512": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 19,
+        "new_claim_visible": 8,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 22,
+      "max_stored_traits": 22,
+      "mean_context_tokens": 111.29166666666667,
+      "n_with_budget_drops": 0
+    },
+    "B0_original|current|background=100|budget=128": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 21,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 9,
+        "old_claim_with_new_text_visible": 9
+      },
+      "min_stored_traits": 75,
+      "max_stored_traits": 80,
+      "mean_context_tokens": 109.33333333333333,
+      "n_with_budget_drops": 1
+    },
+    "B0_original|current|background=100|budget=256": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 21,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 9,
+        "old_claim_with_new_text_visible": 9
+      },
+      "min_stored_traits": 75,
+      "max_stored_traits": 80,
+      "mean_context_tokens": 111.20833333333333,
+      "n_with_budget_drops": 0
+    },
+    "B0_original|current|background=100|budget=512": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 21,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 9,
+        "old_claim_with_new_text_visible": 9
+      },
+      "min_stored_traits": 75,
+      "max_stored_traits": 80,
+      "mean_context_tokens": 111.20833333333333,
+      "n_with_budget_drops": 0
+    },
+    "O_filter_diagnostic|current|background=100|budget=128": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 0,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 1,
+        "old_claim_with_new_text_visible": 0
+      },
+      "min_stored_traits": 75,
+      "max_stored_traits": 80,
+      "mean_context_tokens": 113.04166666666667,
+      "n_with_budget_drops": 1
+    },
+    "O_filter_diagnostic|current|background=100|budget=256": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 0,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 1,
+        "old_claim_with_new_text_visible": 0
+      },
+      "min_stored_traits": 75,
+      "max_stored_traits": 80,
+      "mean_context_tokens": 114.91666666666667,
+      "n_with_budget_drops": 0
+    },
+    "O_filter_diagnostic|current|background=100|budget=512": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 0,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 1,
+        "old_claim_with_new_text_visible": 0
+      },
+      "min_stored_traits": 75,
+      "max_stored_traits": 80,
+      "mean_context_tokens": 114.91666666666667,
+      "n_with_budget_drops": 0
+    },
+    "B0_original|historical|background=100|budget=128": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 20,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 75,
+      "max_stored_traits": 80,
+      "mean_context_tokens": 107.33333333333333,
+      "n_with_budget_drops": 1
+    },
+    "B0_original|historical|background=100|budget=256": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 20,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 75,
+      "max_stored_traits": 80,
+      "mean_context_tokens": 109.20833333333333,
+      "n_with_budget_drops": 0
+    },
+    "B0_original|historical|background=100|budget=512": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 20,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 75,
+      "max_stored_traits": 80,
+      "mean_context_tokens": 109.20833333333333,
+      "n_with_budget_drops": 0
+    },
+    "O_filter_diagnostic|historical|background=100|budget=128": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 20,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 75,
+      "max_stored_traits": 80,
+      "mean_context_tokens": 107.33333333333333,
+      "n_with_budget_drops": 1
+    },
+    "O_filter_diagnostic|historical|background=100|budget=256": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 20,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 75,
+      "max_stored_traits": 80,
+      "mean_context_tokens": 109.20833333333333,
+      "n_with_budget_drops": 0
+    },
+    "O_filter_diagnostic|historical|background=100|budget=512": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 20,
+        "new_claim_visible": 1,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 75,
+      "max_stored_traits": 80,
+      "mean_context_tokens": 109.20833333333333,
+      "n_with_budget_drops": 0
+    },
+    "B1_exact_diagnostic|current|background=100|budget=128": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 18,
+        "new_claim_visible": 5,
+        "new_text_visible_verbatim": 5,
+        "old_claim_with_new_text_visible": 5
+      },
+      "min_stored_traits": 102,
+      "max_stored_traits": 102,
+      "mean_context_tokens": 112.04166666666667,
+      "n_with_budget_drops": 0
+    },
+    "B1_exact_diagnostic|current|background=100|budget=256": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 18,
+        "new_claim_visible": 5,
+        "new_text_visible_verbatim": 5,
+        "old_claim_with_new_text_visible": 5
+      },
+      "min_stored_traits": 102,
+      "max_stored_traits": 102,
+      "mean_context_tokens": 112.04166666666667,
+      "n_with_budget_drops": 0
+    },
+    "B1_exact_diagnostic|current|background=100|budget=512": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 18,
+        "new_claim_visible": 5,
+        "new_text_visible_verbatim": 5,
+        "old_claim_with_new_text_visible": 5
+      },
+      "min_stored_traits": 102,
+      "max_stored_traits": 102,
+      "mean_context_tokens": 112.04166666666667,
+      "n_with_budget_drops": 0
+    },
+    "B1_exact_diagnostic|historical|background=100|budget=128": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 19,
+        "new_claim_visible": 8,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 102,
+      "max_stored_traits": 102,
+      "mean_context_tokens": 111.29166666666667,
+      "n_with_budget_drops": 0
+    },
+    "B1_exact_diagnostic|historical|background=100|budget=256": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 19,
+        "new_claim_visible": 8,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 102,
+      "max_stored_traits": 102,
+      "mean_context_tokens": 111.29166666666667,
+      "n_with_budget_drops": 0
+    },
+    "B1_exact_diagnostic|historical|background=100|budget=512": {
+      "n": 24,
+      "n_groups": 12,
+      "counts": {
+        "old_claim_visible": 19,
+        "new_claim_visible": 8,
+        "new_text_visible_verbatim": 8,
+        "old_claim_with_new_text_visible": 8
+      },
+      "min_stored_traits": 102,
+      "max_stored_traits": 102,
+      "mean_context_tokens": 111.29166666666667,
+      "n_with_budget_drops": 0
+    }
+  },
+  "answer_quality_measured": false,
+  "human_annotation_used": false,
+  "retrieval": {
+    "source_sha256": "5a870b4199076a09ff9bb3f731f2da8c09e01b9e9b36f1dd3a6657b998276736",
+    "execution": "unchanged AST-selected upstream helpers; profile-only",
+    "candidate_top_k": 4,
+    "profile_quota": 3,
+    "minimum_similarity_384": 0.88
+  },
+  "tokenizer_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "generative_api_calls": 0,
+  "test_inference_count": 0,
+  "total_wall_seconds": 41.96413283236325
+}

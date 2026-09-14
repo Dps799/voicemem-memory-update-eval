@@ -1,0 +1,332 @@
+{
+  "scope": "post-hoc structural sensitivity only; primary metrics and selection unchanged",
+  "human_annotation_used": false,
+  "semantic_relabelling_performed": false,
+  "cases": [
+    {
+      "sample_id": "pawsx_ne_1365",
+      "source": "PAWS-X-zh",
+      "kind": "raw_distinct_collapsed_to_identical_normalized_text",
+      "raw_a": "2008 年，菲利普·鲍尔斯制作了一张收录他 14 首电影主题曲的 CD，由 1M1 Records 发行。",
+      "raw_b": "2008 年，菲利普·鲍尔斯发行了一张以他的 14 部电影为主题的 CD， 并由 1M1 Records 制作。",
+      "encoded": "2008 年"
+    },
+    {
+      "sample_id": "pawsx_ne_1784",
+      "source": "PAWS-X-zh",
+      "kind": "raw_distinct_collapsed_to_identical_normalized_text",
+      "raw_a": "根据季节不同，北美洲的卷心菜种群会从加拿大迁移至墨西哥。",
+      "raw_b": "根据季节不同，北美洲的粉纹夜蛾种群会从墨西哥迁徙至加拿大。",
+      "encoded": "根据季节不同"
+    },
+    {
+      "sample_id": "pawsx_ne_2344",
+      "source": "PAWS-X-zh",
+      "kind": "raw_distinct_collapsed_to_identical_normalized_text",
+      "raw_a": "1171 年 11 月 29 日，贡萨洛·鲁伊斯·德·布伦巴首次作为“冈萨洛”签署了证书。",
+      "raw_b": "1171 年 11 月 29 日， 贡萨洛首次签署了宪章“Gonzalo Ruiz de Bureba”。",
+      "encoded": "1171 年 11 月 29 日"
+    },
+    {
+      "sample_id": "pawsx_ne_2846",
+      "source": "PAWS-X-zh",
+      "kind": "raw_distinct_collapsed_to_identical_normalized_text",
+      "raw_a": "2009 年，库里奇扮演了戏剧角色“吉纳维芙·麦克多纳。",
+      "raw_b": "2009 年，吉纳维芙·麦克多纳扮演了戏剧角色柯立芝。",
+      "encoded": "2009 年"
+    },
+    {
+      "sample_id": "pawsx_ne_4180",
+      "source": "PAWS-X-zh",
+      "kind": "raw_identical_but_non_equivalent_dataset_label",
+      "raw_a": "它为墨尔本东南部的伊迪斯韦尔郊区服务，并于 1919 年 9 月 20 日开放。",
+      "raw_b": "它为墨尔本东南部的伊迪斯韦尔郊区服务，并于 1919 年 9 月 20 日开放。",
+      "encoded": "它为墨尔本东南部的伊迪斯韦尔郊区服务"
+    },
+    {
+      "sample_id": "pawsx_ne_424",
+      "source": "PAWS-X-zh",
+      "kind": "raw_distinct_collapsed_to_identical_normalized_text",
+      "raw_a": "在过去 100 年间，泰国象的数量已经从 100,000 头减少到 2,000 - 3,000 头野生大象和 2,700 头驯养大象。",
+      "raw_b": "在过去 100 年间，泰国象的数量已经从 100,000 头减少到 2,000 - 3,000 头驯养大象和大约 2,700 头野生大象。",
+      "encoded": "在过去 100 年间"
+    },
+    {
+      "sample_id": "pawsx_ne_5313",
+      "source": "PAWS-X-zh",
+      "kind": "raw_distinct_collapsed_to_identical_normalized_text",
+      "raw_a": "1834 年，它由 C·R·格里高利在塞巴修道院购得，并在 1883 年罗伯特·寇松被看见。",
+      "raw_b": "1834 年，它由罗伯特·寇松在塞巴修道院购得，并在 1883 年被 C·R·格里高利看见。",
+      "encoded": "1834 年"
+    },
+    {
+      "sample_id": "pawsx_ne_6242",
+      "source": "PAWS-X-zh",
+      "kind": "raw_distinct_collapsed_to_identical_normalized_text",
+      "raw_a": "2014 年 12 月 19 日，马林鱼队的艾尔瓦迪、加勒特·琼斯和多明戈·日尔曼被交换至纽约洋基队以对抗马丁·普拉多和大卫·菲尔普斯。",
+      "raw_b": "2014 年 12 月 19 日，马林鱼队用艾尔瓦迪、加勒特·琼斯和多明戈·日尔曼换来了纽约洋基队的马丁·普拉多和大卫·费尔普斯。",
+      "encoded": "2014 年 12 月 19 日"
+    }
+  ],
+  "n_raw_identical_label_conflicts": 1,
+  "n_distinct_raw_normalization_collisions": 7,
+  "sensitivity_excluding_identical_normalized_non_equivalent_pairs": {
+    "B0_original": {
+      "OCNLI": {
+        "n": 100,
+        "k": 16,
+        "rate": 0.16,
+        "wilson_95_descriptive_only": [
+          0.10095288487704707,
+          0.24420269391507293
+        ],
+        "n_groups": 100,
+        "group_macro_rate": 0.16,
+        "group_macro_bootstrap_95": [
+          0.09,
+          0.24
+        ]
+      },
+      "PAWS-X-zh": {
+        "n": 41,
+        "k": 25,
+        "rate": 0.6097560975609756,
+        "wilson_95_descriptive_only": [
+          0.45726856930636917,
+          0.7434385494255638
+        ],
+        "n_groups": 40,
+        "group_macro_rate": 0.625,
+        "group_macro_bootstrap_95": [
+          0.475,
+          0.775
+        ]
+      }
+    },
+    "B1_exact": {
+      "OCNLI": {
+        "n": 100,
+        "k": 0,
+        "rate": 0.0,
+        "wilson_95_descriptive_only": [
+          0.0,
+          0.03699349822370594
+        ],
+        "n_groups": 100,
+        "group_macro_rate": 0.0,
+        "group_macro_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "PAWS-X-zh": {
+        "n": 41,
+        "k": 0,
+        "rate": 0.0,
+        "wilson_95_descriptive_only": [
+          0.0,
+          0.08566757022119471
+        ],
+        "n_groups": 40,
+        "group_macro_rate": 0.0,
+        "group_macro_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "B2_097": {
+      "OCNLI": {
+        "n": 100,
+        "k": 4,
+        "rate": 0.04,
+        "wilson_95_descriptive_only": [
+          0.015663303988310957,
+          0.0983707143774985
+        ],
+        "n_groups": 100,
+        "group_macro_rate": 0.04,
+        "group_macro_bootstrap_95": [
+          0.01,
+          0.08
+        ]
+      },
+      "PAWS-X-zh": {
+        "n": 41,
+        "k": 15,
+        "rate": 0.36585365853658536,
+        "wilson_95_descriptive_only": [
+          0.2358983101712758,
+          0.5187929891563617
+        ],
+        "n_groups": 40,
+        "group_macro_rate": 0.375,
+        "group_macro_bootstrap_95": [
+          0.225,
+          0.525
+        ]
+      }
+    },
+    "B2_099": {
+      "OCNLI": {
+        "n": 100,
+        "k": 0,
+        "rate": 0.0,
+        "wilson_95_descriptive_only": [
+          0.0,
+          0.03699349822370594
+        ],
+        "n_groups": 100,
+        "group_macro_rate": 0.0,
+        "group_macro_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "PAWS-X-zh": {
+        "n": 41,
+        "k": 3,
+        "rate": 0.07317073170731707,
+        "wilson_95_descriptive_only": [
+          0.02519783062806874,
+          0.19427448541441455
+        ],
+        "n_groups": 40,
+        "group_macro_rate": 0.075,
+        "group_macro_bootstrap_95": [
+          0.0,
+          0.1506249999999966
+        ]
+      }
+    },
+    "B3_never": {
+      "OCNLI": {
+        "n": 100,
+        "k": 0,
+        "rate": 0.0,
+        "wilson_95_descriptive_only": [
+          0.0,
+          0.03699349822370594
+        ],
+        "n_groups": 100,
+        "group_macro_rate": 0.0,
+        "group_macro_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "PAWS-X-zh": {
+        "n": 41,
+        "k": 0,
+        "rate": 0.0,
+        "wilson_95_descriptive_only": [
+          0.0,
+          0.08566757022119471
+        ],
+        "n_groups": 40,
+        "group_macro_rate": 0.0,
+        "group_macro_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C1_random_20260911": {
+      "OCNLI": {
+        "n": 100,
+        "k": 33,
+        "rate": 0.33,
+        "wilson_95_descriptive_only": [
+          0.24563122732353654,
+          0.4269465620725234
+        ],
+        "n_groups": 100,
+        "group_macro_rate": 0.33,
+        "group_macro_bootstrap_95": [
+          0.24,
+          0.42
+        ]
+      },
+      "PAWS-X-zh": {
+        "n": 41,
+        "k": 16,
+        "rate": 0.3902439024390244,
+        "wilson_95_descriptive_only": [
+          0.25656145057443625,
+          0.542731430693631
+        ],
+        "n_groups": 40,
+        "group_macro_rate": 0.3875,
+        "group_macro_bootstrap_95": [
+          0.2375,
+          0.55
+        ]
+      }
+    },
+    "C1_random_20260912": {
+      "OCNLI": {
+        "n": 100,
+        "k": 40,
+        "rate": 0.4,
+        "wilson_95_descriptive_only": [
+          0.30940128641278775,
+          0.49799741323195335
+        ],
+        "n_groups": 100,
+        "group_macro_rate": 0.4,
+        "group_macro_bootstrap_95": [
+          0.3,
+          0.5
+        ]
+      },
+      "PAWS-X-zh": {
+        "n": 41,
+        "k": 8,
+        "rate": 0.1951219512195122,
+        "wilson_95_descriptive_only": [
+          0.10234437383604629,
+          0.3401358519085847
+        ],
+        "n_groups": 40,
+        "group_macro_rate": 0.2,
+        "group_macro_bootstrap_95": [
+          0.075,
+          0.325
+        ]
+      }
+    },
+    "C1_random_20260913": {
+      "OCNLI": {
+        "n": 100,
+        "k": 39,
+        "rate": 0.39,
+        "wilson_95_descriptive_only": [
+          0.300168740044523,
+          0.48796982956469226
+        ],
+        "n_groups": 100,
+        "group_macro_rate": 0.39,
+        "group_macro_bootstrap_95": [
+          0.3,
+          0.48
+        ]
+      },
+      "PAWS-X-zh": {
+        "n": 41,
+        "k": 18,
+        "rate": 0.43902439024390244,
+        "wilson_95_descriptive_only": [
+          0.2989013173365185,
+          0.5895947278124077
+        ],
+        "n_groups": 40,
+        "group_macro_rate": 0.425,
+        "group_macro_bootstrap_95": [
+          0.275,
+          0.575
+        ]
+      }
+    }
+  },
+  "b0_temporal_merged_groups": 15
+}

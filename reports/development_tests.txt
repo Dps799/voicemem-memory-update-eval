@@ -1,0 +1,42 @@
+test_c1_keeps_all_draws_and_controls (test_audit_regressions.Regressions.test_c1_keeps_all_draws_and_controls) ... ok
+test_exact_string_does_not_merge_identical_vectors (test_audit_regressions.Regressions.test_exact_string_does_not_merge_identical_vectors) ... ok
+test_merged_error_ratio_includes_temporal_errors (test_audit_regressions.Regressions.test_merged_error_ratio_includes_temporal_errors) ... ok
+test_merged_old_claim_is_not_new_claim_and_evidence_is_checked (test_audit_regressions.Regressions.test_merged_old_claim_is_not_new_claim_and_evidence_is_checked) ... ok
+test_random_reuse_preserves_incoming_evidence_and_user_slot_isolation (test_audit_regressions.Regressions.test_random_reuse_preserves_incoming_evidence_and_user_slot_isolation) ... ok
+test_upstream_filter_quota_render_and_budget (test_audit_regressions.Regressions.test_upstream_filter_quota_render_and_budget) ... ok
+test_truncation_deterministic (test_n0_structure.N0BudgetTruncationReproducible.test_truncation_deterministic)
+相同输入+预算，截断结果相同。 ... ok
+test_empty_claim_returns_empty_id (test_n0_structure.N0FailureNotCountedAsSuccess.test_empty_claim_returns_empty_id)
+空输入返回空 ID，不算合并也不算成功。 ... ok
+test_error_field_in_results_schema (test_n0_structure.N0FailureNotCountedAsSuccess.test_error_field_in_results_schema)
+pair_results 必须有 error 字段，失败不为空。 ... ok
+test_gold_not_passed_to_add (test_n0_structure.N0GoldNotInStrategy.test_gold_not_passed_to_add)
+TraitStore.add 不接收 gold label 参数。 ... ok
+test_relation_gold_not_in_run_input (test_n0_structure.N0GoldNotInStrategy.test_relation_gold_not_in_run_input) ... ok
+test_coverage_json_matches_manifest (test_n0_structure.N0ManifestConsistency.test_coverage_json_matches_manifest) ... ok
+test_exclusions_recorded (test_n0_structure.N0ManifestConsistency.test_exclusions_recorded) ... ok
+test_oracle_naming_convention (test_n0_structure.N0OracleSeparatelyMarked.test_oracle_naming_convention)
+oracle 策略名必须包含 'oracle' 或 'O_' 前缀。 ... ok
+test_search_does_not_modify_db (test_n0_structure.N0QueryNoWriteback.test_search_does_not_modify_db)
+search_scored 不写入任何新行。 ... ok
+test_dev_test_counts (test_n0_structure.N0SplitNoLeakage.test_dev_test_counts) ... ok
+test_no_group_crosses_split (test_n0_structure.N0SplitNoLeakage.test_no_group_crosses_split) ... ok
+test_smoke_groups_excluded (test_n0_structure.N0SplitNoLeakage.test_smoke_groups_excluded)
+已看过的 smoke 组不出现在正式集合中。 ... ok
+test_effective_manifest_has_no_shared_generic_text_cross_split (test_n1_auto.N1AutoTests.test_effective_manifest_has_no_shared_generic_text_cross_split) ... ok
+test_encoder_failure_is_not_successful_rejection (test_n1_auto.N1AutoTests.test_encoder_failure_is_not_successful_rejection) ... ok
+test_group_macro_does_not_weight_large_groups_more (test_n1_auto.N1AutoTests.test_group_macro_does_not_weight_large_groups_more) ... ok
+test_label_flip_cannot_affect_strategy_input_or_decision (test_n1_auto.N1AutoTests.test_label_flip_cannot_affect_strategy_input_or_decision) ... ok
+test_raw_ablation_preserves_original_and_restores_normalizer (test_n1_auto.N1AutoTests.test_raw_ablation_preserves_original_and_restores_normalizer) ... ok
+test_same_merge_decision_can_hide_order_state_difference (test_n1_auto.N1AutoTests.test_same_merge_decision_can_hide_order_state_difference) ... ok
+test_shared_text_component_cannot_cross_splits (test_n1_auto.N1AutoTests.test_shared_text_component_cannot_cross_splits) ... ok
+test_smoke_shared_text_excludes_whole_component (test_n1_auto.N1AutoTests.test_smoke_shared_text_excludes_whole_component) ... ok
+test_budget_counts_separator_and_never_splits_claim (test_n2_auto.N2AutomaticTests.test_budget_counts_separator_and_never_splits_claim) ... ok
+test_oracle_cannot_delete_background_just_because_id_is_aliased (test_n2_auto.N2AutomaticTests.test_oracle_cannot_delete_background_just_because_id_is_aliased) ... ok
+test_probes_and_background_do_not_depend_on_future_new_label (test_n2_auto.N2AutomaticTests.test_probes_and_background_do_not_depend_on_future_new_label) ... ok
+test_zero_budget_keeps_no_nonempty_claim (test_n2_auto.N2AutomaticTests.test_zero_budget_keeps_no_nonempty_claim) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 2.287s
+
+OK

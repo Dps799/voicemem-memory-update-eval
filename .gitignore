@@ -16,3 +16,8 @@ models/
 
 # Superseded local development run: ID-based oracle replaced by claim-based v2.
 reports/n2_dev/n2_dev_20260914_auto/
+reports/n1_dev/n1_n2_verify_*/
+reports/n2_dev/n2_n2_verify_*/
+reports/n2_dev/n1_n2_verify_*/
+reports/n1_dev/*verify*/
+reports/n2_dev/*verify*/

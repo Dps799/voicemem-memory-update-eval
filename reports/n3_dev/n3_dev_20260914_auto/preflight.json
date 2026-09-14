@@ -1,0 +1,42 @@
+{
+  "head_at_run": "f58285903d15ce77a220c541cdd3fc27774a32a8",
+  "status": "completed",
+  "scope": "N3 development; controlled trajectories; not natural dialogue",
+  "sha256": {
+    "src/run_n3_dev.py": "e20af269a0fbeac551d3a590dccb21d597709533ac6abdbd7927f55e81a6f7ef",
+    "manifests/n1_effective_manifest.jsonl": "194f1e9c7626c28f07179459fabb80cbb5476efb948e8e04f0cd25af32146e9f",
+    "reports/n3_dev/n3_dev_20260914_auto/checkpoint_results.jsonl": "a4482b2f73a80e89e320c036d82b59fe12f5555a5fad445ee9af96cce1992bef",
+    "reports/n3_dev/n3_dev_20260914_auto/metrics.json": "733c0881a7b18d7068ba8c6fddb524957350f9d38f52071742b64bfcb0a1ac49",
+    "reports/n3_dev/n3_dev_20260914_auto/trajectory_manifest.jsonl": "249788f8857f4150b389f261fb724cda26d787bf20e2aad83987c80cbbaae21f"
+  },
+  "expected_records": 2160,
+  "actual_records": 2160,
+  "budget_pairs": [
+    [
+      1024,
+      256
+    ],
+    [
+      2048,
+      256
+    ],
+    [
+      4096,
+      256
+    ],
+    [
+      2048,
+      128
+    ],
+    [
+      2048,
+      512
+    ]
+  ],
+  "policies": [
+    "P0_b0_fifo",
+    "P1_exact_fifo",
+    "P2_exact_recency",
+    "O_state_oracle"
+  ]
+}

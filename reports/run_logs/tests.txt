@@ -1,6 +1,8 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:180: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 12080). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return torch._C._cuda_getDeviceCount() > 0
 test_c1_keeps_all_draws_and_controls (test_audit_regressions.Regressions.test_c1_keeps_all_draws_and_controls) ... ok
 test_exact_string_does_not_merge_identical_vectors (test_audit_regressions.Regressions.test_exact_string_does_not_merge_identical_vectors) ... ok
-test_merged_error_ratio_includes_temporal_errors (test_audit_regressions.Regressions.test_merged_error_ratio_includes_temporal_errors) ... /root/nas/wangyuhan/paper/voicemem-evaluation-plan/src/aggregate_metrics.py:33: ResourceWarning: unclosed file <_io.TextIOWrapper name='/root/tmp/tmpk66c73fv/pairs.jsonl' mode='r' encoding='UTF-8'>
+test_merged_error_ratio_includes_temporal_errors (test_audit_regressions.Regressions.test_merged_error_ratio_includes_temporal_errors) ... /quark_speech_nas_zjk/users/wangyuhan/experiments/voicemem-memory-update-eval/src/aggregate_metrics.py:33: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmplw8bkpi7/pairs.jsonl' mode='r' encoding='UTF-8'>
   rows = [json.loads(l) for l in open(PAIR_RESULTS) if l.strip()]
 ResourceWarning: Enable tracemalloc to get the object allocation traceback
 ok
@@ -9,6 +11,7 @@ test_random_reuse_preserves_incoming_evidence_and_user_slot_isolation (test_audi
 test_upstream_filter_quota_render_and_budget (test_audit_regressions.Regressions.test_upstream_filter_quota_render_and_budget) ... ok
 
 ----------------------------------------------------------------------
-Ran 6 tests in 1.902s
+Ran 6 tests in 0.441s
 
 OK
+sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute

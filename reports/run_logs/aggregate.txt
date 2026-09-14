@@ -1,5 +1,5 @@
 Loaded 570 pair results
-Written: /root/nas/wangyuhan/paper/voicemem-evaluation-plan/reports/metrics.json
+Written: /quark_speech_nas_zjk/users/wangyuhan/experiments/voicemem-memory-update-eval/reports/metrics.json
 
 ============================================================
 METRICS SUMMARY (smoke test, n small — intervals are wide)

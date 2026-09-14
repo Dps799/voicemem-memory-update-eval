@@ -1,0 +1,34 @@
+{
+  "seed": 20260914,
+  "total_pairs": 600,
+  "target_pairs": 600,
+  "target_met": true,
+  "unique_groups": 500,
+  "unique_personas": 100,
+  "min_personas_target": 100,
+  "min_personas_met": true,
+  "by_source": {
+    "OCNLI": {
+      "dev": 100,
+      "test": 100
+    },
+    "PersonaMem-v2": {
+      "test": 100,
+      "dev": 100
+    },
+    "PAWS-X-zh": {
+      "test": 100,
+      "dev": 100
+    }
+  },
+  "by_relation": {
+    "contradiction_same_scope": 200,
+    "temporal_update": 200,
+    "equivalent": 100,
+    "nonparaphrase_high_overlap": 100
+  },
+  "dev_groups": 250,
+  "test_groups": 250,
+  "dev_fraction_target": 0.5,
+  "no_group_crosses_split": true
+}

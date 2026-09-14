@@ -1,0 +1,95 @@
+{
+  "schema_version": "n0-run-config-1",
+  "status": "frozen_for_n1_dev",
+  "description": "Executable configuration for N1 formal pair diagnostic. N2/N3 configs are conditional and frozen separately after development evidence.",
+  "evidence_commit": "452f295b734647c9417ed27cb9ef5e99b5bf0ff2",
+  "upstream_commit": "a450911fc8cbb44c46d810aace2f3288bad287e4",
+  "embedding": {
+    "model": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "write_prefix": "passage: ",
+    "query_prefix": "passage: ",
+    "normalize": true,
+    "device": "cpu",
+    "dimensions": 384
+  },
+  "sampling": {
+    "manifest": "manifests/formal_manifest.jsonl",
+    "split_manifest": "manifests/split_manifest.jsonl",
+    "seed": 20260914,
+    "total_pairs": 600,
+    "dev_pairs": 300,
+    "test_pairs": 300,
+    "groups_dev": 250,
+    "groups_test": 250,
+    "exclude_prior_smoke_groups": true
+  },
+  "n1_policies": [
+    {"name": "B0_original", "threshold": 0.95, "class": "TraitStore"},
+    {"name": "B1_exact", "threshold": "string_match", "class": "B1ExactStore"},
+    {"name": "B2_097", "threshold": 0.97, "class": "TraitStore", "dev_only_candidate": true},
+    {"name": "B2_099", "threshold": 0.99, "class": "TraitStore", "dev_only_candidate": true},
+    {"name": "B3_never", "threshold": 2.0, "class": "TraitStore"},
+    {"name": "C1_random_20260911", "class": "RandomMergeStore", "seed": 20260911, "dev_calibrated": true},
+    {"name": "C1_random_20260912", "class": "RandomMergeStore", "seed": 20260912, "dev_calibrated": true},
+    {"name": "C1_random_20260913", "class": "RandomMergeStore", "seed": 20260913, "dev_calibrated": true}
+  ],
+  "n1_directions": ["ab", "ba"],
+  "n1_c1_directions": ["ab"],
+  "n1_b2_selection_rule": {
+    "dev_only": true,
+    "criterion": "EMR >= B0_EMR - 5pp; among feasible, lowest FMR; tiebreak: lower threshold",
+    "test_uses": "single frozen B2 threshold selected on dev; no re-selection on test"
+  },
+  "n1_c1_calibration": {
+    "source": "dev B0 eligible merge rate",
+    "frozen_to_test": true,
+    "three_seeds": [20260911, 20260912, 20260913],
+    "all_seeds_reported": true
+  },
+  "n1_ab_ba_comparison": {
+    "merge_decision": true,
+    "retained_claim": true,
+    "evidence_link": true,
+    "note": "AB/BA consistency is for merge decision only; does not establish claim/evidence/state order invariance"
+  },
+  "n1_normalization_ablation": {
+    "dev_only": true,
+    "original_normalize": "upstream normalize_claim (strip subject, strip punctuation, split compound on comma)",
+    "full_text_variant": "no normalization, keep raw claim text",
+    "paired": true,
+    "other_config_unchanged": true
+  },
+  "n1_metrics": [
+    "FMR (non-temporal non-equivalent merges / non-equivalent pairs)",
+    "EMR (equivalent merges / equivalent pairs)",
+    "temporal_merge_rate (temporal merges / temporal pairs)",
+    "merged_error_ratio ((non-equiv + temporal merges) / all merges)",
+    "normalization_damage_rate (dev ablation)",
+    "evidence_support_conflict_rate"
+  ],
+  "statistics": {
+    "wilson_ci_level": 0.95,
+    "group_bootstrap_replicates": 2000,
+    "bootstrap_unit": "persona_or_prem_id_or_pawsx_connected_component",
+    "report_user_macro_average": true,
+    "report_absolute_pp_difference": true
+  },
+  "generative_api_calls": 0,
+  "guardrails": {
+    "emr_drop_guardrail_pp": 5,
+    "stale_exposure_reduction_target_pp": 10,
+    "guardrails_are_engineering_filters_not_statistical_claims": true
+  },
+  "acceptance_g0": {
+    "same_config_rerunnable": true,
+    "groups_no_crossover": true,
+    "results_traceable_to_input": true,
+    "model_failure_recorded_not_counted_as_correct_rejection": true
+  },
+  "acceptance_g1": {
+    "errors_from_multiple_independent_groups": "required to advance to mechanism research",
+    "only_chinese_stress_fails": "narrow conclusion scope",
+    "simple_b1_b2_unresolved_tradeoff": "required to justify M1 or new mechanism"
+  }
+}

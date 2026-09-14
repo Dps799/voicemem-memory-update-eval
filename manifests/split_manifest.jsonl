@@ -1,0 +1,500 @@
+{"split": "dev", "group_id": "Adrian Pradipta", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250818_011555_persona424_1", "pmem_raw_data_250818_011555_persona424_0"]}
+{"split": "dev", "group_id": "Alejandro Morales", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona67_1", "pmem_raw_data_250815_163935_persona67_0"]}
+{"split": "dev", "group_id": "Alexandra 'Alex' Hartmann", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_155601_persona14_0", "pmem_raw_data_250815_155601_persona14_1"]}
+{"split": "dev", "group_id": "Amahle Ncube", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250825_220103_persona911_1", "pmem_raw_data_250825_220103_persona911_0"]}
+{"split": "dev", "group_id": "Amara Reyes", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona257_0", "pmem_raw_data_250815_163935_persona257_1"]}
+{"split": "dev", "group_id": "Aminata Okafor", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona331_0", "pmem_raw_data_250815_163935_persona331_1"]}
+{"split": "dev", "group_id": "Arjun Mehra", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250819_225921_persona547_1", "pmem_raw_data_250819_225921_persona547_0"]}
+{"split": "dev", "group_id": "Arun Pradipta", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona153_0", "pmem_raw_data_250815_163935_persona153_1"]}
+{"split": "dev", "group_id": "Arun Prasertkul", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona657_1", "pmem_raw_data_250820_224501_persona657_0"]}
+{"split": "dev", "group_id": "Calvin Huang", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250819_225921_persona475_0", "pmem_raw_data_250819_225921_persona475_1"]}
+{"split": "dev", "group_id": "Clara Moretti", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250825_220103_persona907_0", "pmem_raw_data_250825_220103_persona907_1"]}
+{"split": "dev", "group_id": "Danielle Thompson", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250819_225921_persona458_1", "pmem_raw_data_250819_225921_persona458_0"]}
+{"split": "dev", "group_id": "Daniya Karimova", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona27_0", "pmem_raw_data_250815_163935_persona27_1"]}
+{"split": "dev", "group_id": "David Greenberg", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona298_1", "pmem_raw_data_250815_163935_persona298_0"]}
+{"split": "dev", "group_id": "David Liu", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona849_1", "pmem_raw_data_250820_224501_persona849_0"]}
+{"split": "dev", "group_id": "Dimitri Vermaak", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona752_0", "pmem_raw_data_250820_224501_persona752_1"]}
+{"split": "dev", "group_id": "Dr. Aarav Mehta", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona263_1", "pmem_raw_data_250815_163935_persona263_0"]}
+{"split": "dev", "group_id": "Dr. Anika Sharma", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250818_011555_persona390_1", "pmem_raw_data_250818_011555_persona390_0"]}
+{"split": "dev", "group_id": "Dr. Anisa Putri", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona755_0", "pmem_raw_data_250820_224501_persona755_1"]}
+{"split": "dev", "group_id": "Dr. Arjun Malhotra", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250819_225921_persona491_0", "pmem_raw_data_250819_225921_persona491_1"]}
+{"split": "dev", "group_id": "Dr. Arjun Pradipta", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250826_131038_persona939_1", "pmem_raw_data_250826_131038_persona939_0"]}
+{"split": "dev", "group_id": "Dr. Eleanor Whitford", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250826_131038_persona969_0", "pmem_raw_data_250826_131038_persona969_1"]}
+{"split": "dev", "group_id": "Dr. Leilani Kealoha", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona238_1", "pmem_raw_data_250815_163935_persona238_0"]}
+{"split": "dev", "group_id": "Dr. Mei-Ling Tan", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona859_0", "pmem_raw_data_250820_224501_persona859_1"]}
+{"split": "dev", "group_id": "Eleanor Mae Burke", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_165412_persona566_1", "pmem_raw_data_250820_165412_persona566_0"]}
+{"split": "dev", "group_id": "Elena Marconi", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona221_0", "pmem_raw_data_250815_163935_persona221_1"]}
+{"split": "dev", "group_id": "Elliot Han", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona646_1", "pmem_raw_data_250820_224501_persona646_0"]}
+{"split": "dev", "group_id": "Emily Carter", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250818_011555_persona437_0", "pmem_raw_data_250818_011555_persona437_1"]}
+{"split": "dev", "group_id": "Emily Charlotte Lawson", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_143643_persona2_1", "pmem_raw_data_250815_143643_persona2_0"]}
+{"split": "dev", "group_id": "Ethan Caldwell", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250825_220103_persona886_1", "pmem_raw_data_250825_220103_persona886_0"]}
+{"split": "dev", "group_id": "Ethan Markham", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona53_0", "pmem_raw_data_250815_163935_persona53_1"]}
+{"split": "dev", "group_id": "Isabella Morales", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250819_225921_persona519_1", "pmem_raw_data_250819_225921_persona519_0"]}
+{"split": "dev", "group_id": "Isabella Ramirez", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona738_0", "pmem_raw_data_250820_224501_persona738_1"]}
+{"split": "dev", "group_id": "Kenji Watanabe", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona150_0", "pmem_raw_data_250815_163935_persona150_1"]}
+{"split": "dev", "group_id": "Khalid Mansour Al-Fayed", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona190_0", "pmem_raw_data_250815_163935_persona190_1"]}
+{"split": "dev", "group_id": "Kwame Adeyemi", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona40_0", "pmem_raw_data_250815_163935_persona40_1"]}
+{"split": "dev", "group_id": "Kwame Mensah", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_143643_persona3_0", "pmem_raw_data_250815_143643_persona3_1"]}
+{"split": "dev", "group_id": "Kwame Ndlovu", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona327_1", "pmem_raw_data_250815_163935_persona327_0"]}
+{"split": "dev", "group_id": "Lieutenant Commander Amara Ndlovu", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_155601_persona12_1", "pmem_raw_data_250815_155601_persona12_0"]}
+{"split": "dev", "group_id": "Lina Chen", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250819_225921_persona562_1", "pmem_raw_data_250819_225921_persona562_0"]}
+{"split": "dev", "group_id": "Marisol Alvarez", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona645_0", "pmem_raw_data_250820_224501_persona645_1"]}
+{"split": "dev", "group_id": "María Fernanda Rodríguez", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona280_1", "pmem_raw_data_250815_163935_persona280_0"]}
+{"split": "dev", "group_id": "Omar El-Baz", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona146_1", "pmem_raw_data_250815_163935_persona146_0"]}
+{"split": "dev", "group_id": "Omar Haddad", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250817_221909_persona354_0", "pmem_raw_data_250817_221909_persona354_1"]}
+{"split": "dev", "group_id": "Priya Mehta", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona19_1", "pmem_raw_data_250815_163935_persona19_0"]}
+{"split": "dev", "group_id": "Ravi Deshmukh", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250825_220103_persona906_1", "pmem_raw_data_250825_220103_persona906_0"]}
+{"split": "dev", "group_id": "Raymond Li", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona148_0", "pmem_raw_data_250815_163935_persona148_1"]}
+{"split": "dev", "group_id": "Reverend Lydia Chen", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona647_0", "pmem_raw_data_250820_224501_persona647_1"]}
+{"split": "dev", "group_id": "Rizal Ahmad", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250817_221909_persona350_1", "pmem_raw_data_250817_221909_persona350_0"]}
+{"split": "dev", "group_id": "Vincent \"Vince\" Caruso", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250825_220103_persona922_0", "pmem_raw_data_250825_220103_persona922_1"]}
+{"split": "dev", "group_id": "gov_105", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_157"]}
+{"split": "dev", "group_id": "gov_1054", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1605"]}
+{"split": "dev", "group_id": "gov_1101", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1608"]}
+{"split": "dev", "group_id": "gov_1305", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1976"]}
+{"split": "dev", "group_id": "gov_1367", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_386"]}
+{"split": "dev", "group_id": "gov_1530", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_203"]}
+{"split": "dev", "group_id": "gov_1569", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1075"]}
+{"split": "dev", "group_id": "gov_1597", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1844"]}
+{"split": "dev", "group_id": "gov_1678", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_158"]}
+{"split": "dev", "group_id": "gov_1883", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2950"]}
+{"split": "dev", "group_id": "gov_1959", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_375"]}
+{"split": "dev", "group_id": "gov_1996", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1224"]}
+{"split": "dev", "group_id": "gov_210", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2500"]}
+{"split": "dev", "group_id": "gov_239", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_834"]}
+{"split": "dev", "group_id": "gov_375", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_678"]}
+{"split": "dev", "group_id": "gov_445", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1619"]}
+{"split": "dev", "group_id": "gov_467", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2762"]}
+{"split": "dev", "group_id": "gov_552", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_424"]}
+{"split": "dev", "group_id": "gov_589", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1949"]}
+{"split": "dev", "group_id": "gov_592", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_137"]}
+{"split": "dev", "group_id": "gov_662", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1956"]}
+{"split": "dev", "group_id": "gov_688", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1309"]}
+{"split": "dev", "group_id": "gov_803", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2517"]}
+{"split": "dev", "group_id": "gov_863", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2213"]}
+{"split": "dev", "group_id": "gov_864", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2116"]}
+{"split": "dev", "group_id": "gov_874", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2533"]}
+{"split": "dev", "group_id": "gov_901", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_415"]}
+{"split": "dev", "group_id": "gov_924", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_23"]}
+{"split": "dev", "group_id": "gov_938", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2156"]}
+{"split": "dev", "group_id": "lit_1067", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_669"]}
+{"split": "dev", "group_id": "lit_1102", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_795"]}
+{"split": "dev", "group_id": "lit_1302", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1940"]}
+{"split": "dev", "group_id": "lit_1476", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_671"]}
+{"split": "dev", "group_id": "lit_1487", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_479"]}
+{"split": "dev", "group_id": "lit_158", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1839"]}
+{"split": "dev", "group_id": "lit_1730", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_692"]}
+{"split": "dev", "group_id": "lit_1918", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2484"]}
+{"split": "dev", "group_id": "lit_1923", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_959"]}
+{"split": "dev", "group_id": "lit_1943", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2573"]}
+{"split": "dev", "group_id": "lit_276", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1362"]}
+{"split": "dev", "group_id": "lit_365", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2668"]}
+{"split": "dev", "group_id": "lit_6", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2061"]}
+{"split": "dev", "group_id": "lit_701", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1464"]}
+{"split": "dev", "group_id": "lit_758", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_975"]}
+{"split": "dev", "group_id": "lit_871", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2124"]}
+{"split": "dev", "group_id": "news_1038", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2423"]}
+{"split": "dev", "group_id": "news_1220", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1450"]}
+{"split": "dev", "group_id": "news_1233", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_564"]}
+{"split": "dev", "group_id": "news_1238", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2681"]}
+{"split": "dev", "group_id": "news_1291", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1906"]}
+{"split": "dev", "group_id": "news_1458", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1409"]}
+{"split": "dev", "group_id": "news_152", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1875"]}
+{"split": "dev", "group_id": "news_1523", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_801"]}
+{"split": "dev", "group_id": "news_1581", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1200"]}
+{"split": "dev", "group_id": "news_1696", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_941"]}
+{"split": "dev", "group_id": "news_176", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_768"]}
+{"split": "dev", "group_id": "news_1774", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2060"]}
+{"split": "dev", "group_id": "news_1883", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_177"]}
+{"split": "dev", "group_id": "news_1941", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2242"]}
+{"split": "dev", "group_id": "news_208", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_848"]}
+{"split": "dev", "group_id": "news_265", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1341"]}
+{"split": "dev", "group_id": "news_559", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_335"]}
+{"split": "dev", "group_id": "news_566", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1282"]}
+{"split": "dev", "group_id": "news_59", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2474"]}
+{"split": "dev", "group_id": "news_699", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_642"]}
+{"split": "dev", "group_id": "news_789", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_311"]}
+{"split": "dev", "group_id": "news_832", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_129"]}
+{"split": "dev", "group_id": "news_94", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_969"]}
+{"split": "dev", "group_id": "pawsx_102", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_102"]}
+{"split": "dev", "group_id": "pawsx_1093", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_1093"]}
+{"split": "dev", "group_id": "pawsx_1110", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_1110"]}
+{"split": "dev", "group_id": "pawsx_1260", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_1260"]}
+{"split": "dev", "group_id": "pawsx_1365", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1365"]}
+{"split": "dev", "group_id": "pawsx_1421", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1421"]}
+{"split": "dev", "group_id": "pawsx_1444", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_1444"]}
+{"split": "dev", "group_id": "pawsx_1461", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_1461"]}
+{"split": "dev", "group_id": "pawsx_1569", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1569"]}
+{"split": "dev", "group_id": "pawsx_1579", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_1579"]}
+{"split": "dev", "group_id": "pawsx_1675", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1675"]}
+{"split": "dev", "group_id": "pawsx_1772", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1772"]}
+{"split": "dev", "group_id": "pawsx_1784", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1784"]}
+{"split": "dev", "group_id": "pawsx_1797", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1797"]}
+{"split": "dev", "group_id": "pawsx_1827", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1827"]}
+{"split": "dev", "group_id": "pawsx_2013", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_2013"]}
+{"split": "dev", "group_id": "pawsx_2072", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_2072"]}
+{"split": "dev", "group_id": "pawsx_2125", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_2125"]}
+{"split": "dev", "group_id": "pawsx_2169", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_2169"]}
+{"split": "dev", "group_id": "pawsx_2344", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_2344"]}
+{"split": "dev", "group_id": "pawsx_2510", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_2510"]}
+{"split": "dev", "group_id": "pawsx_2582", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_2582"]}
+{"split": "dev", "group_id": "pawsx_2662", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_2662"]}
+{"split": "dev", "group_id": "pawsx_2699", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_2699"]}
+{"split": "dev", "group_id": "pawsx_2846", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_2846"]}
+{"split": "dev", "group_id": "pawsx_2858", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_2858"]}
+{"split": "dev", "group_id": "pawsx_293", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_293"]}
+{"split": "dev", "group_id": "pawsx_2939", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_2939"]}
+{"split": "dev", "group_id": "pawsx_3068", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_3068"]}
+{"split": "dev", "group_id": "pawsx_319", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_319"]}
+{"split": "dev", "group_id": "pawsx_3261", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_3261"]}
+{"split": "dev", "group_id": "pawsx_3338", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_3338"]}
+{"split": "dev", "group_id": "pawsx_3352", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_3352"]}
+{"split": "dev", "group_id": "pawsx_368", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_368"]}
+{"split": "dev", "group_id": "pawsx_3776", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_3776"]}
+{"split": "dev", "group_id": "pawsx_3798", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_3798"]}
+{"split": "dev", "group_id": "pawsx_3866", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_3866"]}
+{"split": "dev", "group_id": "pawsx_396", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_396"]}
+{"split": "dev", "group_id": "pawsx_3991", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_3991"]}
+{"split": "dev", "group_id": "pawsx_4121", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4121"]}
+{"split": "dev", "group_id": "pawsx_4140", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4140"]}
+{"split": "dev", "group_id": "pawsx_4180", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4180"]}
+{"split": "dev", "group_id": "pawsx_4192", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4192"]}
+{"split": "dev", "group_id": "pawsx_4211", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4211"]}
+{"split": "dev", "group_id": "pawsx_424", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_424"]}
+{"split": "dev", "group_id": "pawsx_4295", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4295"]}
+{"split": "dev", "group_id": "pawsx_434", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_434"]}
+{"split": "dev", "group_id": "pawsx_4365", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4365"]}
+{"split": "dev", "group_id": "pawsx_4420", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4420"]}
+{"split": "dev", "group_id": "pawsx_4446", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4446"]}
+{"split": "dev", "group_id": "pawsx_4641", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4641"]}
+{"split": "dev", "group_id": "pawsx_4652", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4652"]}
+{"split": "dev", "group_id": "pawsx_4653", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4653"]}
+{"split": "dev", "group_id": "pawsx_4824", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4824"]}
+{"split": "dev", "group_id": "pawsx_4924", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4924"]}
+{"split": "dev", "group_id": "pawsx_5296", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_5296"]}
+{"split": "dev", "group_id": "pawsx_5313", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_5313"]}
+{"split": "dev", "group_id": "pawsx_5362", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_5362"]}
+{"split": "dev", "group_id": "pawsx_5462", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_5462"]}
+{"split": "dev", "group_id": "pawsx_5479", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_5479"]}
+{"split": "dev", "group_id": "pawsx_5482", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_5482"]}
+{"split": "dev", "group_id": "pawsx_5542", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_5542"]}
+{"split": "dev", "group_id": "pawsx_556", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_556"]}
+{"split": "dev", "group_id": "pawsx_5685", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_5685"]}
+{"split": "dev", "group_id": "pawsx_5860", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_5860"]}
+{"split": "dev", "group_id": "pawsx_5881", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_5881"]}
+{"split": "dev", "group_id": "pawsx_6027", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6027"]}
+{"split": "dev", "group_id": "pawsx_6120", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_6120"]}
+{"split": "dev", "group_id": "pawsx_6135", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_6135"]}
+{"split": "dev", "group_id": "pawsx_6147", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6147"]}
+{"split": "dev", "group_id": "pawsx_6161", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6161"]}
+{"split": "dev", "group_id": "pawsx_6213", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6213"]}
+{"split": "dev", "group_id": "pawsx_6242", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_6242"]}
+{"split": "dev", "group_id": "pawsx_6279", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6279"]}
+{"split": "dev", "group_id": "pawsx_632", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_632"]}
+{"split": "dev", "group_id": "pawsx_6551", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6551"]}
+{"split": "dev", "group_id": "pawsx_6566", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6566"]}
+{"split": "dev", "group_id": "pawsx_6611", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6611"]}
+{"split": "dev", "group_id": "pawsx_6773", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6773"]}
+{"split": "dev", "group_id": "pawsx_6885", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6885"]}
+{"split": "dev", "group_id": "pawsx_6903", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_6903"]}
+{"split": "dev", "group_id": "pawsx_6929", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_6929"]}
+{"split": "dev", "group_id": "pawsx_7002", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7002"]}
+{"split": "dev", "group_id": "pawsx_7062", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7062"]}
+{"split": "dev", "group_id": "pawsx_7108", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7108"]}
+{"split": "dev", "group_id": "pawsx_7162", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7162"]}
+{"split": "dev", "group_id": "pawsx_7249", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7249"]}
+{"split": "dev", "group_id": "pawsx_7292", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7292"]}
+{"split": "dev", "group_id": "pawsx_7345", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7345"]}
+{"split": "dev", "group_id": "pawsx_742", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_742"]}
+{"split": "dev", "group_id": "pawsx_7422", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7422"]}
+{"split": "dev", "group_id": "pawsx_7510", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7510"]}
+{"split": "dev", "group_id": "pawsx_7559", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7559"]}
+{"split": "dev", "group_id": "pawsx_7676", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7676"]}
+{"split": "dev", "group_id": "pawsx_791", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_791"]}
+{"split": "dev", "group_id": "pawsx_7910", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7910"]}
+{"split": "dev", "group_id": "pawsx_7939", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7939"]}
+{"split": "dev", "group_id": "pawsx_7961", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7961"]}
+{"split": "dev", "group_id": "pawsx_951", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_951"]}
+{"split": "dev", "group_id": "pawsx_97", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_97"]}
+{"split": "dev", "group_id": "phone_1046", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_766"]}
+{"split": "dev", "group_id": "phone_1157", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1008"]}
+{"split": "dev", "group_id": "phone_1225", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1345"]}
+{"split": "dev", "group_id": "phone_1422", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2244"]}
+{"split": "dev", "group_id": "phone_1537", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2299"]}
+{"split": "dev", "group_id": "phone_154", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_649"]}
+{"split": "dev", "group_id": "phone_1579", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2513"]}
+{"split": "dev", "group_id": "phone_1635", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1131"]}
+{"split": "dev", "group_id": "phone_1758", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2704"]}
+{"split": "dev", "group_id": "phone_1823", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2597"]}
+{"split": "dev", "group_id": "phone_1855", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2738"]}
+{"split": "dev", "group_id": "phone_1872", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1740"]}
+{"split": "dev", "group_id": "phone_1879", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_903"]}
+{"split": "dev", "group_id": "phone_245", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_147"]}
+{"split": "dev", "group_id": "phone_262", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_872"]}
+{"split": "dev", "group_id": "phone_265", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_253"]}
+{"split": "dev", "group_id": "phone_476", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1449"]}
+{"split": "dev", "group_id": "phone_853", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1319"]}
+{"split": "dev", "group_id": "phone_923", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_789"]}
+{"split": "dev", "group_id": "phone_978", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1618"]}
+{"split": "dev", "group_id": "tv_1098", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2338"]}
+{"split": "dev", "group_id": "tv_1129", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_517"]}
+{"split": "dev", "group_id": "tv_1169", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_106"]}
+{"split": "dev", "group_id": "tv_1350", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_594"]}
+{"split": "dev", "group_id": "tv_1622", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1650"]}
+{"split": "dev", "group_id": "tv_1640", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1561"]}
+{"split": "dev", "group_id": "tv_1725", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2357"]}
+{"split": "dev", "group_id": "tv_1735", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_370"]}
+{"split": "dev", "group_id": "tv_1924", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2335"]}
+{"split": "dev", "group_id": "tv_451", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1974"]}
+{"split": "dev", "group_id": "tv_60", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2097"]}
+{"split": "dev", "group_id": "tv_687", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2385"]}
+{"split": "test", "group_id": "Adrian Malik Thompson", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona319_1", "pmem_raw_data_250815_163935_persona319_0"]}
+{"split": "test", "group_id": "Adrian Prasert Kulap", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_165412_persona581_0", "pmem_raw_data_250820_165412_persona581_1"]}
+{"split": "test", "group_id": "Adrian Surya Pramono", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250826_131038_persona993_1", "pmem_raw_data_250826_131038_persona993_0"]}
+{"split": "test", "group_id": "Alina Reyes Tan", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250825_220103_persona897_0", "pmem_raw_data_250825_220103_persona897_1"]}
+{"split": "test", "group_id": "Amara Santoso", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_165412_persona590_1", "pmem_raw_data_250820_165412_persona590_0"]}
+{"split": "test", "group_id": "Ananya Kapoor", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona80_0", "pmem_raw_data_250815_163935_persona80_1"]}
+{"split": "test", "group_id": "Anjali Deshmukh", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250818_011555_persona401_1", "pmem_raw_data_250818_011555_persona401_0"]}
+{"split": "test", "group_id": "Arjun Mehta", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona276_1", "pmem_raw_data_250815_163935_persona276_0"]}
+{"split": "test", "group_id": "Caroline Whitmore", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona157_1", "pmem_raw_data_250815_163935_persona157_0"]}
+{"split": "test", "group_id": "Clara Whitmore", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250825_220103_persona899_0", "pmem_raw_data_250825_220103_persona899_1"]}
+{"split": "test", "group_id": "Daniel Wei", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona771_1", "pmem_raw_data_250820_224501_persona771_0"]}
+{"split": "test", "group_id": "Daniel Wong", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona819_0", "pmem_raw_data_250820_224501_persona819_1"]}
+{"split": "test", "group_id": "David Ben-Ami", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona237_1", "pmem_raw_data_250815_163935_persona237_0"]}
+{"split": "test", "group_id": "David Kenji Nakamura", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona799_0", "pmem_raw_data_250820_224501_persona799_1"]}
+{"split": "test", "group_id": "Dr. Emily Chen", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250819_225921_persona502_0", "pmem_raw_data_250819_225921_persona502_1"]}
+{"split": "test", "group_id": "Dr. Kenji Nakamura", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona28_1", "pmem_raw_data_250815_163935_persona28_0"]}
+{"split": "test", "group_id": "Dr. Marco Santorini", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona101_0", "pmem_raw_data_250815_163935_persona101_1"]}
+{"split": "test", "group_id": "Elena Markovic", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona56_1", "pmem_raw_data_250815_163935_persona56_0"]}
+{"split": "test", "group_id": "Elena Marquez-Lindström", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona177_0", "pmem_raw_data_250815_163935_persona177_1"]}
+{"split": "test", "group_id": "Elif Demir", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona687_0", "pmem_raw_data_250820_224501_persona687_1"]}
+{"split": "test", "group_id": "Emily Grace Thompson", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona650_0", "pmem_raw_data_250820_224501_persona650_1"]}
+{"split": "test", "group_id": "Frances 'Frankie' Nguyen", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona700_1", "pmem_raw_data_250820_224501_persona700_0"]}
+{"split": "test", "group_id": "Gabriela Morales", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona678_0", "pmem_raw_data_250820_224501_persona678_1"]}
+{"split": "test", "group_id": "Harold Ming Wei Chen", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona91_1", "pmem_raw_data_250815_163935_persona91_0"]}
+{"split": "test", "group_id": "Isabella Marisol Reyes", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250817_221909_persona359_0", "pmem_raw_data_250817_221909_persona359_1"]}
+{"split": "test", "group_id": "Isla Harrington", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona654_0", "pmem_raw_data_250820_224501_persona654_1"]}
+{"split": "test", "group_id": "Katarina Novak", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona857_1", "pmem_raw_data_250820_224501_persona857_0"]}
+{"split": "test", "group_id": "Kwame Obeng", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250825_220103_persona908_1", "pmem_raw_data_250825_220103_persona908_0"]}
+{"split": "test", "group_id": "Laila Al-Mansouri", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250825_220103_persona877_1", "pmem_raw_data_250825_220103_persona877_0"]}
+{"split": "test", "group_id": "Liang Mei-hua", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona286_0", "pmem_raw_data_250815_163935_persona286_1"]}
+{"split": "test", "group_id": "Lillian 'Lily' Zhang", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona104_1", "pmem_raw_data_250815_163935_persona104_0"]}
+{"split": "test", "group_id": "Luka Petrovic", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona69_1", "pmem_raw_data_250815_163935_persona69_0"]}
+{"split": "test", "group_id": "Lukas Petrovic", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona847_1", "pmem_raw_data_250820_224501_persona847_0"]}
+{"split": "test", "group_id": "Lukas Varga", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250819_225921_persona486_1", "pmem_raw_data_250819_225921_persona486_0"]}
+{"split": "test", "group_id": "Mariana Alvarez", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250819_225921_persona538_0", "pmem_raw_data_250819_225921_persona538_1"]}
+{"split": "test", "group_id": "Marisol Vega-Hart", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250817_221909_persona353_0", "pmem_raw_data_250817_221909_persona353_1"]}
+{"split": "test", "group_id": "Mei-Lin Chowdhury", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_165412_persona585_1", "pmem_raw_data_250820_165412_persona585_0"]}
+{"split": "test", "group_id": "Mei-Lin Zhang", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona602_0", "pmem_raw_data_250820_224501_persona602_1"]}
+{"split": "test", "group_id": "Mei-Ling Chen", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona845_0", "pmem_raw_data_250820_224501_persona845_1"]}
+{"split": "test", "group_id": "Miguel Alejandro Castillo", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona175_1", "pmem_raw_data_250815_163935_persona175_0"]}
+{"split": "test", "group_id": "Monica Lestari", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona317_0", "pmem_raw_data_250815_163935_persona317_1"]}
+{"split": "test", "group_id": "Nomsa Adeola Butchko", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona786_0", "pmem_raw_data_250820_224501_persona786_1"]}
+{"split": "test", "group_id": "Omar Khaled Mansour", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona212_0", "pmem_raw_data_250815_163935_persona212_1"]}
+{"split": "test", "group_id": "Omar Khalid Mansour", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona315_1", "pmem_raw_data_250815_163935_persona315_0"]}
+{"split": "test", "group_id": "Priya Deshmukh", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250819_225921_persona487_1", "pmem_raw_data_250819_225921_persona487_0"]}
+{"split": "test", "group_id": "Samuel Lev Rosenberg", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250818_011555_persona380_0", "pmem_raw_data_250818_011555_persona380_1"]}
+{"split": "test", "group_id": "Sofia Marquez", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250819_225921_persona485_1", "pmem_raw_data_250819_225921_persona485_0"]}
+{"split": "test", "group_id": "Thandeka Moyo", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250820_224501_persona779_0", "pmem_raw_data_250820_224501_persona779_1"]}
+{"split": "test", "group_id": "Thandiwe Okoro", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250815_163935_persona223_1", "pmem_raw_data_250815_163935_persona223_0"]}
+{"split": "test", "group_id": "Victor Kowalski", "source": "PersonaMem-v2", "n_pairs": 2, "sample_ids": ["pmem_raw_data_250826_131038_persona940_0", "pmem_raw_data_250826_131038_persona940_1"]}
+{"split": "test", "group_id": "gov_1075", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_960"]}
+{"split": "test", "group_id": "gov_1340", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2978"]}
+{"split": "test", "group_id": "gov_1482", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_128"]}
+{"split": "test", "group_id": "gov_1491", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_970"]}
+{"split": "test", "group_id": "gov_1520", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1535"]}
+{"split": "test", "group_id": "gov_1598", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1381"]}
+{"split": "test", "group_id": "gov_1791", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2164"]}
+{"split": "test", "group_id": "gov_1845", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_792"]}
+{"split": "test", "group_id": "gov_1978", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_248"]}
+{"split": "test", "group_id": "gov_282", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_584"]}
+{"split": "test", "group_id": "gov_410", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1932"]}
+{"split": "test", "group_id": "gov_444", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_155"]}
+{"split": "test", "group_id": "gov_457", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_706"]}
+{"split": "test", "group_id": "gov_484", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1128"]}
+{"split": "test", "group_id": "gov_512", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1732"]}
+{"split": "test", "group_id": "gov_564", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_140"]}
+{"split": "test", "group_id": "gov_645", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2020"]}
+{"split": "test", "group_id": "gov_855", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2189"]}
+{"split": "test", "group_id": "gov_91", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2881"]}
+{"split": "test", "group_id": "gov_969", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1662"]}
+{"split": "test", "group_id": "lit_1089", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_191"]}
+{"split": "test", "group_id": "lit_1188", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1920"]}
+{"split": "test", "group_id": "lit_1390", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2416"]}
+{"split": "test", "group_id": "lit_1496", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1727"]}
+{"split": "test", "group_id": "lit_1509", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1085"]}
+{"split": "test", "group_id": "lit_1709", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1233"]}
+{"split": "test", "group_id": "lit_1710", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_853"]}
+{"split": "test", "group_id": "lit_1895", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2939"]}
+{"split": "test", "group_id": "lit_207", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1455"]}
+{"split": "test", "group_id": "lit_209", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_190"]}
+{"split": "test", "group_id": "lit_290", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1271"]}
+{"split": "test", "group_id": "lit_342", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2402"]}
+{"split": "test", "group_id": "lit_350", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_153"]}
+{"split": "test", "group_id": "lit_542", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_393"]}
+{"split": "test", "group_id": "lit_544", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_676"]}
+{"split": "test", "group_id": "lit_548", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2239"]}
+{"split": "test", "group_id": "lit_552", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_634"]}
+{"split": "test", "group_id": "lit_625", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_651"]}
+{"split": "test", "group_id": "lit_811", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1579"]}
+{"split": "test", "group_id": "lit_881", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2850"]}
+{"split": "test", "group_id": "lit_93", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1830"]}
+{"split": "test", "group_id": "lit_959", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1140"]}
+{"split": "test", "group_id": "lit_964", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_965"]}
+{"split": "test", "group_id": "news_1", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2927"]}
+{"split": "test", "group_id": "news_1026", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1668"]}
+{"split": "test", "group_id": "news_1218", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_79"]}
+{"split": "test", "group_id": "news_1425", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1971"]}
+{"split": "test", "group_id": "news_143", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2470"]}
+{"split": "test", "group_id": "news_1746", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1915"]}
+{"split": "test", "group_id": "news_184", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2277"]}
+{"split": "test", "group_id": "news_1866", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1405"]}
+{"split": "test", "group_id": "news_1887", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1514"]}
+{"split": "test", "group_id": "news_1908", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_252"]}
+{"split": "test", "group_id": "news_1942", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2672"]}
+{"split": "test", "group_id": "news_219", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2163"]}
+{"split": "test", "group_id": "news_224", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2981"]}
+{"split": "test", "group_id": "news_241", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2684"]}
+{"split": "test", "group_id": "news_25", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1901"]}
+{"split": "test", "group_id": "news_353", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1720"]}
+{"split": "test", "group_id": "news_368", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2677"]}
+{"split": "test", "group_id": "news_387", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2270"]}
+{"split": "test", "group_id": "news_465", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_551"]}
+{"split": "test", "group_id": "news_469", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_6"]}
+{"split": "test", "group_id": "news_480", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_778"]}
+{"split": "test", "group_id": "news_520", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_804"]}
+{"split": "test", "group_id": "news_615", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_545"]}
+{"split": "test", "group_id": "news_726", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_615"]}
+{"split": "test", "group_id": "news_911", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_837"]}
+{"split": "test", "group_id": "news_914", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1318"]}
+{"split": "test", "group_id": "pawsx_1035", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1035"]}
+{"split": "test", "group_id": "pawsx_1187", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1187"]}
+{"split": "test", "group_id": "pawsx_1188", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_1188"]}
+{"split": "test", "group_id": "pawsx_1320", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_1320"]}
+{"split": "test", "group_id": "pawsx_1326", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1326"]}
+{"split": "test", "group_id": "pawsx_1446", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1446"]}
+{"split": "test", "group_id": "pawsx_1482", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_1482"]}
+{"split": "test", "group_id": "pawsx_1638", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_1638"]}
+{"split": "test", "group_id": "pawsx_1664", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1664"]}
+{"split": "test", "group_id": "pawsx_1689", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1689"]}
+{"split": "test", "group_id": "pawsx_1710", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_1710"]}
+{"split": "test", "group_id": "pawsx_174", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_174"]}
+{"split": "test", "group_id": "pawsx_1875", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1875"]}
+{"split": "test", "group_id": "pawsx_1915", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_1915"]}
+{"split": "test", "group_id": "pawsx_1940", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1940"]}
+{"split": "test", "group_id": "pawsx_1945", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_1945"]}
+{"split": "test", "group_id": "pawsx_2085", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_2085"]}
+{"split": "test", "group_id": "pawsx_2464", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_2464"]}
+{"split": "test", "group_id": "pawsx_2533", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_2533"]}
+{"split": "test", "group_id": "pawsx_2556", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_2556"]}
+{"split": "test", "group_id": "pawsx_2575", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_2575"]}
+{"split": "test", "group_id": "pawsx_2667", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_2667"]}
+{"split": "test", "group_id": "pawsx_2675", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_2675"]}
+{"split": "test", "group_id": "pawsx_275", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_275"]}
+{"split": "test", "group_id": "pawsx_2895", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_2895"]}
+{"split": "test", "group_id": "pawsx_3078", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_3078"]}
+{"split": "test", "group_id": "pawsx_3104", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_3104"]}
+{"split": "test", "group_id": "pawsx_3151", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_3151"]}
+{"split": "test", "group_id": "pawsx_3249", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_3249"]}
+{"split": "test", "group_id": "pawsx_3319", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_3319"]}
+{"split": "test", "group_id": "pawsx_3484", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_3484"]}
+{"split": "test", "group_id": "pawsx_3489", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_3489"]}
+{"split": "test", "group_id": "pawsx_3554", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_3554"]}
+{"split": "test", "group_id": "pawsx_3586", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_3586"]}
+{"split": "test", "group_id": "pawsx_3614", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_3614"]}
+{"split": "test", "group_id": "pawsx_3679", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_3679"]}
+{"split": "test", "group_id": "pawsx_3712", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_3712"]}
+{"split": "test", "group_id": "pawsx_381", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_381"]}
+{"split": "test", "group_id": "pawsx_3876", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_3876"]}
+{"split": "test", "group_id": "pawsx_3951", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_3951"]}
+{"split": "test", "group_id": "pawsx_4006", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4006"]}
+{"split": "test", "group_id": "pawsx_4021", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4021"]}
+{"split": "test", "group_id": "pawsx_4029", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4029"]}
+{"split": "test", "group_id": "pawsx_4105", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4105"]}
+{"split": "test", "group_id": "pawsx_431", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_431"]}
+{"split": "test", "group_id": "pawsx_4339", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4339"]}
+{"split": "test", "group_id": "pawsx_4341", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4341"]}
+{"split": "test", "group_id": "pawsx_453", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_453"]}
+{"split": "test", "group_id": "pawsx_4635", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4635"]}
+{"split": "test", "group_id": "pawsx_4695", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4695"]}
+{"split": "test", "group_id": "pawsx_4790", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_4790"]}
+{"split": "test", "group_id": "pawsx_484", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_484"]}
+{"split": "test", "group_id": "pawsx_4853", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4853"]}
+{"split": "test", "group_id": "pawsx_4933", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4933"]}
+{"split": "test", "group_id": "pawsx_4959", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4959"]}
+{"split": "test", "group_id": "pawsx_4962", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_4962"]}
+{"split": "test", "group_id": "pawsx_5011", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_5011"]}
+{"split": "test", "group_id": "pawsx_5038", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_5038"]}
+{"split": "test", "group_id": "pawsx_5179", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_5179"]}
+{"split": "test", "group_id": "pawsx_5415", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_5415"]}
+{"split": "test", "group_id": "pawsx_5568", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_5568"]}
+{"split": "test", "group_id": "pawsx_5601", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_5601"]}
+{"split": "test", "group_id": "pawsx_5736", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_5736"]}
+{"split": "test", "group_id": "pawsx_5793", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_5793"]}
+{"split": "test", "group_id": "pawsx_5847", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_5847"]}
+{"split": "test", "group_id": "pawsx_6008", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6008"]}
+{"split": "test", "group_id": "pawsx_6026", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6026"]}
+{"split": "test", "group_id": "pawsx_603", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_603"]}
+{"split": "test", "group_id": "pawsx_6031", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_6031"]}
+{"split": "test", "group_id": "pawsx_6047", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6047"]}
+{"split": "test", "group_id": "pawsx_6180", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6180"]}
+{"split": "test", "group_id": "pawsx_6287", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_6287"]}
+{"split": "test", "group_id": "pawsx_6345", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6345"]}
+{"split": "test", "group_id": "pawsx_6348", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6348"]}
+{"split": "test", "group_id": "pawsx_6367", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6367"]}
+{"split": "test", "group_id": "pawsx_6393", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_6393"]}
+{"split": "test", "group_id": "pawsx_6432", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_6432"]}
+{"split": "test", "group_id": "pawsx_6520", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_6520"]}
+{"split": "test", "group_id": "pawsx_6595", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6595"]}
+{"split": "test", "group_id": "pawsx_6619", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_6619"]}
+{"split": "test", "group_id": "pawsx_6924", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_6924"]}
+{"split": "test", "group_id": "pawsx_7054", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7054"]}
+{"split": "test", "group_id": "pawsx_7161", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7161"]}
+{"split": "test", "group_id": "pawsx_7261", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7261"]}
+{"split": "test", "group_id": "pawsx_7288", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7288"]}
+{"split": "test", "group_id": "pawsx_7331", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7331"]}
+{"split": "test", "group_id": "pawsx_7391", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7391"]}
+{"split": "test", "group_id": "pawsx_752", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_752"]}
+{"split": "test", "group_id": "pawsx_7535", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7535"]}
+{"split": "test", "group_id": "pawsx_7563", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7563"]}
+{"split": "test", "group_id": "pawsx_7565", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7565"]}
+{"split": "test", "group_id": "pawsx_7615", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7615"]}
+{"split": "test", "group_id": "pawsx_765", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_765"]}
+{"split": "test", "group_id": "pawsx_7663", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7663"]}
+{"split": "test", "group_id": "pawsx_7673", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7673"]}
+{"split": "test", "group_id": "pawsx_7712", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7712"]}
+{"split": "test", "group_id": "pawsx_7731", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7731"]}
+{"split": "test", "group_id": "pawsx_7861", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_eq_7861"]}
+{"split": "test", "group_id": "pawsx_7928", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7928"]}
+{"split": "test", "group_id": "pawsx_7987", "source": "PAWS-X-zh", "n_pairs": 1, "sample_ids": ["pawsx_ne_7987"]}
+{"split": "test", "group_id": "phone_1097", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_273"]}
+{"split": "test", "group_id": "phone_1127", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1858"]}
+{"split": "test", "group_id": "phone_1469", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_579"]}
+{"split": "test", "group_id": "phone_1524", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2243"]}
+{"split": "test", "group_id": "phone_1549", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1946"]}
+{"split": "test", "group_id": "phone_1582", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2890"]}
+{"split": "test", "group_id": "phone_1767", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2561"]}
+{"split": "test", "group_id": "phone_186", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2107"]}
+{"split": "test", "group_id": "phone_1873", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_272"]}
+{"split": "test", "group_id": "phone_1937", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_80"]}
+{"split": "test", "group_id": "phone_302", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_497"]}
+{"split": "test", "group_id": "phone_339", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2965"]}
+{"split": "test", "group_id": "phone_440", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2896"]}
+{"split": "test", "group_id": "phone_83", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1868"]}
+{"split": "test", "group_id": "tv_1046", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2367"]}
+{"split": "test", "group_id": "tv_1122", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2333"]}
+{"split": "test", "group_id": "tv_1299", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2269"]}
+{"split": "test", "group_id": "tv_1627", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_654"]}
+{"split": "test", "group_id": "tv_324", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_526"]}
+{"split": "test", "group_id": "tv_359", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_487"]}
+{"split": "test", "group_id": "tv_473", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1116"]}
+{"split": "test", "group_id": "tv_485", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2931"]}
+{"split": "test", "group_id": "tv_509", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1473"]}
+{"split": "test", "group_id": "tv_619", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1471"]}
+{"split": "test", "group_id": "tv_638", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1369"]}
+{"split": "test", "group_id": "tv_646", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_1693"]}
+{"split": "test", "group_id": "tv_673", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_646"]}
+{"split": "test", "group_id": "tv_692", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2147"]}
+{"split": "test", "group_id": "tv_807", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2929"]}
+{"split": "test", "group_id": "tv_851", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2458"]}
+{"split": "test", "group_id": "tv_910", "source": "OCNLI", "n_pairs": 1, "sample_ids": ["ocnli_2622"]}

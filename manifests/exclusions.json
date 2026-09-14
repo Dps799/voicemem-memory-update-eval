@@ -1,0 +1,52 @@
+{
+  "seed": 20260914,
+  "excluded_ocnli_prem_ids": [
+    "gov_1161",
+    "gov_1948",
+    "gov_935",
+    "lit_1532",
+    "lit_1815",
+    "phone_1197",
+    "phone_1980",
+    "tv_1200",
+    "tv_1930",
+    "tv_720"
+  ],
+  "excluded_pawsx_ids": [
+    "1080",
+    "1742",
+    "2559",
+    "2701",
+    "2926",
+    "3046",
+    "4074",
+    "425",
+    "4380",
+    "5387",
+    "5428",
+    "5538",
+    "5559",
+    "6096",
+    "680",
+    "7454",
+    "7637",
+    "7685",
+    "779",
+    "7952"
+  ],
+  "excluded_persona_files": [
+    "raw_data_250815_163935_persona126",
+    "raw_data_250815_163935_persona313",
+    "raw_data_250818_011555_persona436",
+    "raw_data_250819_225921_persona481",
+    "raw_data_250820_224501_persona604",
+    "raw_data_250826_131038_persona988"
+  ],
+  "reason": "Prior smoke test groups excluded per NEXT_PHASE_PLAN §3.1: persona604, phase B personas, smoke OCNLI prem_ids and PAWS-X ids",
+  "ocnli_total_contradiction": 900,
+  "ocnli_excluded_by_smoke": 10,
+  "pawsx_total_eq": 853,
+  "pawsx_total_ne": 1147,
+  "personamem_total_personas": 999,
+  "personamem_excluded_personas": 6
+}

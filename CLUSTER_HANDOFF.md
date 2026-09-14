@@ -1,6 +1,6 @@
 # 远端集群执行交接
 
-本包是待实现的测评规范，不含已可执行的评测脚本，也没有已完成的实验结果。先阅读 [实验计划](EXPERIMENT_PLAN.md)。
+当前已有阶段 A/B 的 CPU 小样本执行器与审计修订结果。先读 [最新报告](reports/REPORT.md)，再按 [实验计划](EXPERIMENT_PLAN.md) 扩展正式实验。
 
 新增 benchmark 接入见 [扩展说明](BENCHMARK_ADDENDUM.md)。Memora 属于阶段 B/C 后的可选验证，共享已有总预算；先审计 schema、时间与判分极性，不直接全量运行。
 
@@ -38,7 +38,7 @@ null 表示执行者需要测量或配置，不可写成已验证。无 GPU、�
 
 ## 建议实现的产物结构
 
-下面是实施目标，脚本尚未创建：
+下面是原始完整实验的产物目标；当前小样本实现位于根目录 `src/`、`manifests/` 和 `reports/`：
 
 ```text
 experiments/voicemem-memory-update/
@@ -75,3 +75,11 @@ experiments/voicemem-memory-update/
 - [ ] Memora 的 FAMA 按问题计算后取均值；无遗忘条件的问题与真正含遗忘条件的问题分开报告。
 
 首次 Git 提交建议标题：`docs: plan VoiceMem trait merge and update evaluation`。推送目标由用户提供的仓库地址决定；本地计划完成不代表已经提交或启动集群。
+
+## 审计修订后的交接要求
+
+1. 先运行 `PYTHON=.venv/bin/python bash scripts/reproduce_smoke.sh`。固定输入下预期 570 条 A 记录、160 条 B 条件记录；这些不是独立样本数。
+2. 不再使用旧版 C1、证据错挂计数或原始 top-5 残留率作为正式结论。当前 B 分别记录数据库链接、claim 内容、画像指导文本暴露；详情见报告。
+3. 正式 B 扩样须按 persona 隔离 dev/test，独立复核规范化后的判断与时间/作用域，并使用真实对话或明确区分的固定抽取输入。
+4. 下一步增加有竞争性的同领域背景、完整左右脑检索与实际 prompt，固定查询后再比较 token 预算。当前 1/3 条画像上限只是诊断条件，不能宣称已优化有限预算长期记忆。
+5. 模型与 API 预算未配置前可完成上述存储/检索工作；不得伪造回答、M1 或 Memora 分数。原数据审计与新机器环境分别保留来源记录。

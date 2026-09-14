@@ -1,12 +1,6 @@
 {
-  "schema_version": "0.3",
-  "metric_scope": "development smoke, dataset-derived labels before normalization; not population estimates",
-  "merged_error_ratio_definition": "(non-equivalent merges + temporal-update merges) / all merges; assumes temporal gold forbids merge",
-  "n_unique_sample_ids": 45,
-  "n_total_results": 570,
-  "n_ab_eligible": 336,
-  "n_execution_errors": 0,
-  "order_consistency_scope": "merge decision only; does not establish claim/evidence/state invariance",
+  "n_total_results": 455,
+  "n_ab_eligible": 230,
   "policies": {
     "B0_original": {
       "n_eligible": 42,
@@ -28,8 +22,7 @@
         1.0
       ],
       "temporal_merge_rate": 0.5,
-      "n_error_merged_including_temporal": 14,
-      "merged_error_ratio": 0.56
+      "merged_error_ratio": 0.36
     },
     "B1_exact": {
       "n_eligible": 42,
@@ -51,7 +44,6 @@
         0.4769805620320494
       ],
       "temporal_merge_rate": 0.0,
-      "n_error_merged_including_temporal": 0,
       "merged_error_ratio": 0.0
     },
     "B2_097": {
@@ -74,8 +66,7 @@
         0.9486323102678235
       ],
       "temporal_merge_rate": 0.4,
-      "n_error_merged_including_temporal": 9,
-      "merged_error_ratio": 0.5
+      "merged_error_ratio": 0.2778
     },
     "B2_099": {
       "n_eligible": 42,
@@ -97,8 +88,7 @@
         0.6461988255483124
       ],
       "temporal_merge_rate": 0.4,
-      "n_error_merged_including_temporal": 6,
-      "merged_error_ratio": 0.6
+      "merged_error_ratio": 0.2
     },
     "B3_never": {
       "n_eligible": 42,
@@ -120,77 +110,29 @@
         0.25883296705806935
       ],
       "temporal_merge_rate": 0.0,
-      "n_error_merged_including_temporal": 0,
       "merged_error_ratio": "N/A (no merges)"
     },
-    "C1_random_20260911": {
-      "n_eligible": 42,
-      "n_nonequiv": 21,
-      "n_equiv": 11,
-      "n_temporal": 10,
-      "n_merged_total": 25,
-      "n_nonequiv_merged_FMR": 13,
-      "n_equiv_merged_EMR": 5,
-      "n_temporal_merged": 7,
-      "FMR": 0.619,
+    "C1_random": {
+      "n_eligible": 20,
+      "n_nonequiv": 12,
+      "n_equiv": 3,
+      "n_temporal": 5,
+      "n_merged_total": 0,
+      "n_nonequiv_merged_FMR": 0,
+      "n_equiv_merged_EMR": 0,
+      "n_temporal_merged": 0,
+      "FMR": 0.0,
       "FMR_wilson_95": [
-        0.4087865377054432,
-        0.7924898863454612
+        0.0,
+        0.24249400674145444
       ],
-      "EMR": 0.4545,
+      "EMR": 0.0,
       "EMR_wilson_95": [
-        0.212712716184487,
-        0.7199084626389738
+        0.0,
+        0.5614970318706057
       ],
-      "temporal_merge_rate": 0.7,
-      "n_error_merged_including_temporal": 20,
-      "merged_error_ratio": 0.8
-    },
-    "C1_random_20260912": {
-      "n_eligible": 42,
-      "n_nonequiv": 21,
-      "n_equiv": 11,
-      "n_temporal": 10,
-      "n_merged_total": 28,
-      "n_nonequiv_merged_FMR": 13,
-      "n_equiv_merged_EMR": 6,
-      "n_temporal_merged": 9,
-      "FMR": 0.619,
-      "FMR_wilson_95": [
-        0.4087865377054432,
-        0.7924898863454612
-      ],
-      "EMR": 0.5455,
-      "EMR_wilson_95": [
-        0.2800915373610262,
-        0.7872872838155129
-      ],
-      "temporal_merge_rate": 0.9,
-      "n_error_merged_including_temporal": 22,
-      "merged_error_ratio": 0.7857
-    },
-    "C1_random_20260913": {
-      "n_eligible": 42,
-      "n_nonequiv": 21,
-      "n_equiv": 11,
-      "n_temporal": 10,
-      "n_merged_total": 26,
-      "n_nonequiv_merged_FMR": 14,
-      "n_equiv_merged_EMR": 7,
-      "n_temporal_merged": 5,
-      "FMR": 0.6667,
-      "FMR_wilson_95": [
-        0.4537345196944937,
-        0.8280524739767723
-      ],
-      "EMR": 0.6364,
-      "EMR_wilson_95": [
-        0.3538011744516876,
-        0.8483352890779299
-      ],
-      "temporal_merge_rate": 0.5,
-      "n_error_merged_including_temporal": 19,
-      "merged_error_ratio": 0.7308
+      "temporal_merge_rate": 0.0,
+      "merged_error_ratio": "N/A (no merges)"
     }
   },
   "order_consistency": [
@@ -345,78 +287,6 @@
       "should_merge": false,
       "passed": true,
       "note": "empty_input"
-    },
-    {
-      "sample_id": "control_diffuser_0",
-      "policy": "C1_random_20260911",
-      "merged": false,
-      "should_merge": false,
-      "passed": true,
-      "note": "cross_user"
-    },
-    {
-      "sample_id": "control_diffslot_0",
-      "policy": "C1_random_20260911",
-      "merged": false,
-      "should_merge": false,
-      "passed": true,
-      "note": "cross_slot"
-    },
-    {
-      "sample_id": "control_empty_0",
-      "policy": "C1_random_20260911",
-      "merged": false,
-      "should_merge": false,
-      "passed": true,
-      "note": "empty_input"
-    },
-    {
-      "sample_id": "control_diffuser_0",
-      "policy": "C1_random_20260912",
-      "merged": false,
-      "should_merge": false,
-      "passed": true,
-      "note": "cross_user"
-    },
-    {
-      "sample_id": "control_diffslot_0",
-      "policy": "C1_random_20260912",
-      "merged": false,
-      "should_merge": false,
-      "passed": true,
-      "note": "cross_slot"
-    },
-    {
-      "sample_id": "control_empty_0",
-      "policy": "C1_random_20260912",
-      "merged": false,
-      "should_merge": false,
-      "passed": true,
-      "note": "empty_input"
-    },
-    {
-      "sample_id": "control_diffuser_0",
-      "policy": "C1_random_20260913",
-      "merged": false,
-      "should_merge": false,
-      "passed": true,
-      "note": "cross_user"
-    },
-    {
-      "sample_id": "control_diffslot_0",
-      "policy": "C1_random_20260913",
-      "merged": false,
-      "should_merge": false,
-      "passed": true,
-      "note": "cross_slot"
-    },
-    {
-      "sample_id": "control_empty_0",
-      "policy": "C1_random_20260913",
-      "merged": false,
-      "should_merge": false,
-      "passed": true,
-      "note": "empty_input"
     }
   ],
   "boundary_pairs": [
@@ -491,43 +361,8 @@
       "relation_gold": "contextual_difference"
     },
     {
-      "sample_id": "boundary_merge_0",
-      "policy": "C1_random_20260911",
-      "similarity": 0.9658,
-      "merged": true,
-      "relation_gold": "equivalent"
-    },
-    {
       "sample_id": "boundary_nomerge_0",
-      "policy": "C1_random_20260911",
-      "similarity": 0.9593,
-      "merged": true,
-      "relation_gold": "contextual_difference"
-    },
-    {
-      "sample_id": "boundary_merge_0",
-      "policy": "C1_random_20260912",
-      "similarity": 0.9658,
-      "merged": false,
-      "relation_gold": "equivalent"
-    },
-    {
-      "sample_id": "boundary_nomerge_0",
-      "policy": "C1_random_20260912",
-      "similarity": 0.9593,
-      "merged": true,
-      "relation_gold": "contextual_difference"
-    },
-    {
-      "sample_id": "boundary_merge_0",
-      "policy": "C1_random_20260913",
-      "similarity": 0.9658,
-      "merged": false,
-      "relation_gold": "equivalent"
-    },
-    {
-      "sample_id": "boundary_nomerge_0",
-      "policy": "C1_random_20260913",
+      "policy": "C1_random",
       "similarity": 0.9593,
       "merged": false,
       "relation_gold": "contextual_difference"

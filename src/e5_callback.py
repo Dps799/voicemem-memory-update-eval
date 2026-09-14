@@ -13,17 +13,16 @@ import os
 import sys
 from pathlib import Path
 
-os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")
+
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 
 # VoiceMem 上游核心代码目录（固定 commit a450911fc8c）
 VOICEMEM_DIR = Path(__file__).parent.parent / "upstream"
 
-E5_SNAPSHOT = (
-    "/root/.cache/huggingface/hub/"
-    "models--intfloat--multilingual-e5-small/snapshots/"
-    "614241f622f53c4eeff9890bdc4f31cfecc418b3"
-)
+E5_MODEL = "intfloat/multilingual-e5-small"
+E5_REVISION = "614241f622f53c4eeff9890bdc4f31cfecc418b3"
+E5_SNAPSHOT = os.environ.get("VOICEMEM_E5_PATH", E5_MODEL)
+
 
 # 把 VoiceMem 的 rightbrain 目录加到 path，直接导入固定 commit 的 traits_store
 sys.path.insert(0, str(VOICEMEM_DIR / "voicemem" / "rightbrain"))
@@ -39,7 +38,7 @@ _MODEL = None
 def _model() -> SentenceTransformer:
     global _MODEL
     if _MODEL is None:
-        _MODEL = SentenceTransformer(E5_SNAPSHOT)
+        _MODEL = SentenceTransformer(E5_SNAPSHOT, revision=E5_REVISION, device="cpu", token=False)
     return _MODEL
 
 
@@ -64,7 +63,7 @@ def real_embed(text: str) -> list[float]:
 
 def precompute_embeddings(texts: list[str]) -> None:
     """批量预计算所有唯一文本的 embedding（避免逐条 encode 的开销）。"""
-    unique = list(set(t for t in texts if t))
+    unique = sorted(set(t for t in texts if t))
     unique = [t for t in unique if t not in _CACHE]
     if not unique:
         return

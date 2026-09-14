@@ -1,0 +1,55 @@
+Loaded 45 pairs
+Precomputing embeddings for 129 unique claims...
+Embeddings cached.
+
+>>> Policy B0_original (threshold=0.95)
+
+>>> Policy B1_exact (threshold=string_match)
+
+>>> Policy B2_097 (threshold=0.97)
+
+>>> Policy B2_099 (threshold=0.99)
+
+>>> Policy B3_never (threshold=2.0)
+
+>>> Policy C1_random (B0 merge_rate from 45 ab results)
+
+Written 570 results to /root/nas/wangyuhan/paper/voicemem-evaluation-plan/reports/pair_results.jsonl
+
+============================================================
+PHASE A SMOKE TEST SUMMARY
+============================================================
+
+B0_original (n=42 eligible same-user same-slot non-empty):
+  merged=25  FMR=0.42857142857142855  EMR=1.0 (equiv n=11)
+  FALSE MERGES: [('ocnli_1204', 'contradiction_same_scope', 0.9628), ('pawsx_ne_2926', 'nonparaphrase_high_overlap', 0.9672), ('pawsx_ne_2701', 'nonparaphrase_high_overlap', 0.983), ('pawsx_ne_6096', 'nonparaphrase_high_overlap', 0.9972), ('pawsx_ne_5538', 'nonparaphrase_high_overlap', 0.9934), ('pawsx_ne_1742', 'nonparaphrase_high_overlap', 0.9876), ('pawsx_ne_4380', 'nonparaphrase_high_overlap', 0.9618), ('pawsx_ne_7454', 'nonparaphrase_high_overlap', 0.9771), ('boundary_nomerge_0', 'contextual_difference', 0.9593)]
+
+B1_exact (n=42 eligible same-user same-slot non-empty):
+  merged=2  FMR=0.0  EMR=0.18181818181818182 (equiv n=11)
+
+B2_097 (n=42 eligible same-user same-slot non-empty):
+  merged=18  FMR=0.23809523809523808  EMR=0.8181818181818182 (equiv n=11)
+  FALSE MERGES: [('pawsx_ne_2701', 'nonparaphrase_high_overlap', 0.983), ('pawsx_ne_6096', 'nonparaphrase_high_overlap', 0.9972), ('pawsx_ne_5538', 'nonparaphrase_high_overlap', 0.9934), ('pawsx_ne_1742', 'nonparaphrase_high_overlap', 0.9876), ('pawsx_ne_7454', 'nonparaphrase_high_overlap', 0.9771)]
+
+B2_099 (n=42 eligible same-user same-slot non-empty):
+  merged=10  FMR=0.09523809523809523  EMR=0.36363636363636365 (equiv n=11)
+  FALSE MERGES: [('pawsx_ne_6096', 'nonparaphrase_high_overlap', 0.9972), ('pawsx_ne_5538', 'nonparaphrase_high_overlap', 0.9934)]
+
+B3_never (n=42 eligible same-user same-slot non-empty):
+  merged=0  FMR=0.0  EMR=0.0 (equiv n=11)
+
+C1_random_20260911 (n=42 eligible same-user same-slot non-empty):
+  merged=25  FMR=0.6190476190476191  EMR=0.45454545454545453 (equiv n=11)
+  FALSE MERGES: [('ocnli_623', 'contradiction_same_scope', 0.9364), ('ocnli_2066', 'contradiction_same_scope', 0.9262), ('ocnli_54', 'contradiction_same_scope', 0.9209), ('ocnli_2837', 'contradiction_same_scope', 0.9271), ('ocnli_1204', 'contradiction_same_scope', 0.9628), ('ocnli_236', 'contradiction_same_scope', 0.9099), ('ocnli_1626', 'contradiction_same_scope', 0.9197), ('pawsx_ne_2926', 'nonparaphrase_high_overlap', 0.9672), ('pawsx_ne_5538', 'nonparaphrase_high_overlap', 0.9934), ('pawsx_ne_1742', 'nonparaphrase_high_overlap', 0.9876), ('pawsx_ne_779', 'nonparaphrase_high_overlap', 0.9054), ('pawsx_ne_4380', 'nonparaphrase_high_overlap', 0.9618), ('boundary_nomerge_0', 'contextual_difference', 0.9593)]
+
+C1_random_20260912 (n=42 eligible same-user same-slot non-empty):
+  merged=28  FMR=0.6190476190476191  EMR=0.5454545454545454 (equiv n=11)
+  FALSE MERGES: [('ocnli_2083', 'contradiction_same_scope', 0.9062), ('ocnli_623', 'contradiction_same_scope', 0.9364), ('ocnli_2066', 'contradiction_same_scope', 0.9262), ('ocnli_2077', 'contradiction_same_scope', 0.9327), ('pawsx_ne_6096', 'nonparaphrase_high_overlap', 0.9972), ('pawsx_ne_2559', 'nonparaphrase_high_overlap', 0.9499), ('pawsx_ne_5538', 'nonparaphrase_high_overlap', 0.9934), ('pawsx_ne_425', 'nonparaphrase_high_overlap', 0.9456), ('pawsx_ne_1742', 'nonparaphrase_high_overlap', 0.9876), ('pawsx_ne_779', 'nonparaphrase_high_overlap', 0.9054), ('pawsx_ne_4380', 'nonparaphrase_high_overlap', 0.9618), ('pawsx_ne_7454', 'nonparaphrase_high_overlap', 0.9771), ('boundary_nomerge_0', 'contextual_difference', 0.9593)]
+
+C1_random_20260913 (n=42 eligible same-user same-slot non-empty):
+  merged=26  FMR=0.6666666666666666  EMR=0.6363636363636364 (equiv n=11)
+  FALSE MERGES: [('ocnli_2083', 'contradiction_same_scope', 0.9062), ('ocnli_2066', 'contradiction_same_scope', 0.9262), ('ocnli_54', 'contradiction_same_scope', 0.9209), ('ocnli_1204', 'contradiction_same_scope', 0.9628), ('ocnli_236', 'contradiction_same_scope', 0.9099), ('ocnli_1626', 'contradiction_same_scope', 0.9197), ('ocnli_2077', 'contradiction_same_scope', 0.9327), ('pawsx_ne_2701', 'nonparaphrase_high_overlap', 0.983), ('pawsx_ne_6096', 'nonparaphrase_high_overlap', 0.9972), ('pawsx_ne_2559', 'nonparaphrase_high_overlap', 0.9499), ('pawsx_ne_5538', 'nonparaphrase_high_overlap', 0.9934), ('pawsx_ne_779', 'nonparaphrase_high_overlap', 0.9054), ('pawsx_ne_4380', 'nonparaphrase_high_overlap', 0.9618), ('pawsx_ne_7454', 'nonparaphrase_high_overlap', 0.9771)]
+
+BOUNDARY PAIRS (B0):
+  boundary_merge_0: sim=0.9658 merged=True gold=equivalent
+  boundary_nomerge_0: sim=0.9593 merged=True gold=contextual_difference

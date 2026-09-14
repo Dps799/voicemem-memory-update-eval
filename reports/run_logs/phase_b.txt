@@ -1,0 +1,15 @@
+{
+  "scope": "development diagnostic; correlated conditions, not independent samples",
+  "n_rows": 160,
+  "n_episodes": 10,
+  "n_personas": 5,
+  "answer_quality_measured": false,
+  "retrieval": {
+    "source_sha256": "5a870b4199076a09ff9bb3f731f2da8c09e01b9e9b36f1dd3a6657b998276736",
+    "execution": "unchanged AST-selected upstream helpers; profile-only",
+    "candidate_top_k": 4,
+    "profile_quota": 3,
+    "minimum_similarity_384": 0.88
+  },
+  "wall_seconds_after_embedding_precompute": 3.387364389374852
+}

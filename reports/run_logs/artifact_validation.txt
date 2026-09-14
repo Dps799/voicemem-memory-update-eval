@@ -1,0 +1,10 @@
+{
+  "phase_a_rows": 570,
+  "phase_b_rows": 160,
+  "legacy_core_rows_compared": 435,
+  "legacy_core_merge_decisions_changed": 0,
+  "phase_b_unique_episodes": 10,
+  "phase_b_unique_personas": 5,
+  "execution_errors": 0,
+  "all_evidence_links_valid": true
+}

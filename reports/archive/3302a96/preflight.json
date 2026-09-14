@@ -1,0 +1,85 @@
+{
+  "status": "phase_a_ready",
+  "upstream_commit": "a450911fc8cbb44c46d810aace2f3288bad287e4",
+  "experiment_commit": "00715c7",
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "embedding_dimensions": 384,
+  "embedding_prefix_write": "passage: ",
+  "embedding_prefix_query": "query: ",
+  "embedding_normalize": true,
+  "actual_trait_encoding_prefix": "passage: ",
+  "code_path_verified": true,
+  "merge_threshold_upstream": 0.95,
+  "retrieval_min_sim_384dim": 0.88,
+  "trait_store_normalize_claim": "strip subject prefix, strip punctuation, split compound on comma keeping head",
+  "trait_layer_has_stale_marking": false,
+  "heartnote_layer_has_stale_marking": true,
+  "dataset_manifests": [
+    {
+      "source": "OCNLI",
+      "repo": "https://github.com/CLUEbenchmark/OCNLI",
+      "commit": "b53efde",
+      "license": "CC BY-NC 2.0",
+      "file": "data/ocnli/dev.json",
+      "format": "jsonl",
+      "total": 3000,
+      "contradiction": 900,
+      "entailment": 947,
+      "neutral": 1103,
+      "no_consensus_dash": 50,
+      "fields": ["level","sentence1","sentence2","label","label0","label1","label2","label3","label4","genre","prem_id","id"],
+      "verified": true
+    },
+    {
+      "source": "PAWS-X-zh",
+      "repo": "https://huggingface.co/datasets/google-research-datasets/paws-x",
+      "revision": "4cd8187c404bda33cb1f62b49b001115862acf37",
+      "license": "Google dataset license (free use, AS IS)",
+      "file": "zh/validation-00000-of-00001.parquet",
+      "format": "parquet",
+      "total": 2000,
+      "paraphrase_label_1": 853,
+      "nonparaphrase_label_0": 1147,
+      "fields": ["id","sentence1","sentence2","label"],
+      "verified": true
+    },
+    {
+      "source": "PersonaMem-v2",
+      "repo": "https://huggingface.co/datasets/bowen-upenn/PersonaMem-v2",
+      "revision": "ed956dea41521fc4499acbc63f966e0fd3c053ba",
+      "license": "CC BY 4.0",
+      "file": "data/raw_data/*.json",
+      "format": "json",
+      "personas": 999,
+      "preference_updates_key": "preference_updates",
+      "conversations_key": "conversations",
+      "verified": true
+    },
+    {
+      "source": "Memora",
+      "repo": "https://github.com/geniesinc/Memora",
+      "commit": "pending",
+      "license": "Apache 2.0 (per README)",
+      "status": "benchmark_extension_not_first_batch",
+      "verified": false
+    }
+  ],
+  "hardware": {
+    "gpus": "8x NVIDIA A100-SXM4-80GB",
+    "torch_cuda_available": false,
+    "cuda_unavailable_reason": "torch 2.11+cu130 requires CUDA 13.0 driver; host driver is 12.0.8 (12080)",
+    "phase_a_mode": "CPU",
+    "phase_a_cpu_sufficient": true
+  },
+  "scheduler": "direct_bash_no_scheduler",
+  "llm_roles": {
+    "extractor": null,
+    "relation_judge": null,
+    "answerer": null
+  },
+  "budget_currency": null,
+  "budget_amount": null,
+  "phase_a_generative_api_calls": 0,
+  "note": "Phase A uses original TraitStore class with real injected E5 embedding callback on CPU; no generative LLM calls. Paid phases blocked pending model+budget config."
+}

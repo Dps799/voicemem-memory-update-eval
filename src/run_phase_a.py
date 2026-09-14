@@ -5,7 +5,7 @@
 
 策略:
   B0 原实现   — MERGE_THRESHOLD=0.95（上游默认）
-  B1 精确匹配 — MERGE_THRESHOLD=1.0（仅规范化后完全相同才合并）
+  B1 精确匹配 — 规范化后的字符串精确比较
   B2 阈值调整 — 0.97 / 0.99（开发集比较，这里都跑记录原始数据）
   B3 始终新增 — MERGE_THRESHOLD=2.0（永不合并）
   C1 随机控制 — 以 B0 合并率随机决定合并，种子固定
@@ -161,60 +161,52 @@ def run_pair(store: TraitStore, pair: dict, direction: str) -> dict:
     }
 
 
+class RandomMergeStore(TraitStore):
+    """Random reuse of a same-user/same-slot ID, preserving the incoming evidence."""
+    def __init__(self, db_path, embed, merge):
+        self.merge = merge
+        super().__init__(db_path, embed)
+
+    def _find_similar(self, user_id, slot, vec):
+        if not self.merge:
+            return None
+        with self._conn() as c:
+            row = c.execute(
+                "SELECT id FROM rb_traits WHERE user_id=? AND slot=? ORDER BY id LIMIT 1",
+                (user_id, slot),
+            ).fetchone()
+        return row["id"] if row else None
+
+
+def is_eligible(r):
+    return (not r.get("cross_user") and not r.get("cross_slot")
+            and bool(r.get("normalized_claim_a")) and bool(r.get("normalized_claim_b"))
+            and r.get("error") is None)
+
+
 def run_c1_random_control(pairs: list[dict], b0_results: list[dict]) -> list[dict]:
-    """C1 随机控制：同类别候选内，以开发集 B0 的合并率随机决定合并。
+    """Bernoulli reuse, calibrated on eligible development B0 pairs, three seeds.
 
-    种子固定。不改变合并数量以外的语义。
+    Record every pair including non-reuse draws and controls. This is an
+    expected-rate match, not an exact-count match. Never calibrate on test gold.
     """
-    rng = random.Random(SEED)
-    # B0 的合并率
-    b0_merged = [r for r in b0_results if r["merged"]]
-    b0_total = len(b0_results)
-    merge_rate = len(b0_merged) / b0_total if b0_total else 0.0
-
+    eligible = [r for r in b0_results if is_eligible(r)]
+    if not eligible or any(not r["split"].startswith("dev_") for r in eligible):
+        raise ValueError("C1 calibration requires nonempty development-only B0 results")
+    rate = sum(r["merged"] for r in eligible) / len(eligible)
     results = []
-    for pair in pairs:
-        user_id = pair.get("user_a", "user_test")
-        slot = pair.get("slot", "喜好与厌恶")
-        norm_a = normalize_claim(pair["claim_a"])
-        norm_b = normalize_claim(pair["claim_b"])
-        # 随机决定是否合并
-        will_merge = rng.random() < merge_rate
-        if will_merge and norm_a and norm_b:
-            # 模拟合并：写 A，第二次也用 A 的 claim（强制合并）
-            # 但这不公平 — C1 应该用相同 claim，随机决定是否复用
-            # 正确做法：写 A，然后以概率 merge_rate 把 B 也写成 A（复用 ID）
-            db = tempfile.mktemp(suffix=".db")
-            traits_store.MERGE_THRESHOLD = 2.0  # 先不合并
-            store = TraitStore(db, real_embed)
-            store._effective_threshold = "C1_random"
-            ev_a = Evidence(quote=pair["claim_a"], emotion="test")
-            ev_b = Evidence(quote=pair["claim_b"], emotion="test")
-            id1 = store.add(user_id, slot, pair["claim_a"], ev_a)
-            if will_merge:
-                # 强制复用：用 A 的 claim 再写一次
-                id2 = store.add(user_id, slot, pair["claim_a"], ev_b)
-            else:
-                id2 = store.add(user_id, slot, pair["claim_b"], ev_b)
-            sim = cos_sim(real_embed(norm_a), real_embed(norm_b)) if norm_a and norm_b else None
-            results.append({
-                "sample_id": pair["sample_id"],
-                "group_id": pair["group_id"],
-                "source": pair["source"],
-                "split": pair["split"],
-                "language": pair["language"],
-                "relation_gold": pair["relation_gold"],
-                "policy": "C1_random",
-                "direction": "ab",
-                "normalized_claim_a": norm_a,
-                "normalized_claim_b": norm_b,
-                "similarity": sim,
-                "id_a": id1,
-                "id_b": id2,
-                "merged": id1 == id2 and id1 != "",
-                "merge_rate_b0": round(merge_rate, 4),
-                "error": None,
-            })
+    for seed in (20260911, 20260912, 20260913):
+        rng = random.Random(seed)
+        for pair in pairs:
+            draw = rng.random() < rate
+            with tempfile.TemporaryDirectory() as directory:
+                store = RandomMergeStore(str(Path(directory) / "traits.db"), real_embed, draw)
+                store._effective_threshold = "random_reuse"
+                row = run_pair(store, pair, "ab")
+            row.update(policy=f"C1_random_{seed}", random_seed=seed,
+                       random_reuse_draw=draw, merge_rate_b0=rate,
+                       calibration_n=len(eligible), calibration_split="development_only")
+            results.append(row)
     return results
 
 
@@ -244,7 +236,8 @@ def main():
                 # 不同用户/不同类别/空输入只跑 ab（控制维度不需要交换顺序）
                 if pair["source"] == "synthetic_control" and direction == "ba":
                     continue
-                db = tempfile.mktemp(suffix=".db")
+                temp_dir = tempfile.TemporaryDirectory()
+                db = str(Path(temp_dir.name) / "traits.db")
                 store = make_store(db, pol["threshold"])
                 try:
                     res = run_pair(store, pair, direction)
@@ -258,6 +251,9 @@ def main():
                         "error": str(e),
                         "merged": False,
                     })
+
+                finally:
+                    temp_dir.cleanup()
 
     # C1 随机控制
     b0_results = [r for r in all_results if r.get("policy") == "B0_original" and r.get("direction") == "ab"]
@@ -283,7 +279,7 @@ def summarize(results: list[dict]):
     print("PHASE A SMOKE TEST SUMMARY")
     print("=" * 60)
 
-    for pol_name in ["B0_original", "B1_exact", "B2_097", "B2_099", "B3_never", "C1_random"]:
+    for pol_name in sorted({r["policy"] for r in results}):
         pol_res = [r for r in results if r.get("policy") == pol_name and r.get("direction") == "ab" and r.get("error") is None]
         if not pol_res:
             continue
@@ -301,7 +297,8 @@ def summarize(results: list[dict]):
         equiv_total = [r for r in eligible if r["relation_gold"] == "equivalent"]
         equiv_merged = [r for r in equiv_total if r["merged"]]
 
-        fmr = len(nonequiv_merged) / len(eligible) if eligible else None
+        nonequiv_n = sum(r["relation_gold"] in ("contradiction_same_scope", "nonparaphrase_high_overlap", "contextual_difference", "unrelated") for r in eligible)
+        fmr = len(nonequiv_merged) / nonequiv_n if nonequiv_n else None
         emr = len(equiv_merged) / len(equiv_total) if equiv_total else None
 
         print(f"\n{pol_name} (n={len(eligible)} eligible same-user same-slot non-empty):")

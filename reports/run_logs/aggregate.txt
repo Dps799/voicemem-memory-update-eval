@@ -1,0 +1,87 @@
+Loaded 570 pair results
+Written: /root/nas/wangyuhan/paper/voicemem-evaluation-plan/reports/metrics.json
+
+============================================================
+METRICS SUMMARY (smoke test, n small — intervals are wide)
+============================================================
+
+B0_original:
+  FMR=0.4286 (n_nonequiv=21, merged=9)
+  EMR=1.0 (n_equiv=11, merged=11)
+  temporal_merge=0.5 (n=10, merged=5)
+  merged_error_ratio=0.56
+
+B1_exact:
+  FMR=0.0 (n_nonequiv=21, merged=0)
+  EMR=0.1818 (n_equiv=11, merged=2)
+  temporal_merge=0.0 (n=10, merged=0)
+  merged_error_ratio=0.0
+
+B2_097:
+  FMR=0.2381 (n_nonequiv=21, merged=5)
+  EMR=0.8182 (n_equiv=11, merged=9)
+  temporal_merge=0.4 (n=10, merged=4)
+  merged_error_ratio=0.5
+
+B2_099:
+  FMR=0.0952 (n_nonequiv=21, merged=2)
+  EMR=0.3636 (n_equiv=11, merged=4)
+  temporal_merge=0.4 (n=10, merged=4)
+  merged_error_ratio=0.6
+
+B3_never:
+  FMR=0.0 (n_nonequiv=21, merged=0)
+  EMR=0.0 (n_equiv=11, merged=0)
+  temporal_merge=0.0 (n=10, merged=0)
+  merged_error_ratio=N/A (no merges)
+
+C1_random_20260911:
+  FMR=0.619 (n_nonequiv=21, merged=13)
+  EMR=0.4545 (n_equiv=11, merged=5)
+  temporal_merge=0.7 (n=10, merged=7)
+  merged_error_ratio=0.8
+
+C1_random_20260912:
+  FMR=0.619 (n_nonequiv=21, merged=13)
+  EMR=0.5455 (n_equiv=11, merged=6)
+  temporal_merge=0.9 (n=10, merged=9)
+  merged_error_ratio=0.7857
+
+C1_random_20260913:
+  FMR=0.6667 (n_nonequiv=21, merged=14)
+  EMR=0.6364 (n_equiv=11, merged=7)
+  temporal_merge=0.5 (n=10, merged=5)
+  merged_error_ratio=0.7308
+
+ORDER CONSISTENCY:
+  B0_original: 42/42 consistent (inconsistency=0.0)
+  B1_exact: 42/42 consistent (inconsistency=0.0)
+  B2_097: 42/42 consistent (inconsistency=0.0)
+  B2_099: 42/42 consistent (inconsistency=0.0)
+  B3_never: 42/42 consistent (inconsistency=0.0)
+
+CONTROL CHECKS (all should be merged=False):
+  control_diffuser_0 [cross_user]: merged=False passed=True
+  control_diffslot_0 [cross_slot]: merged=False passed=True
+  control_empty_0 [empty_input]: merged=False passed=True
+  control_diffuser_0 [cross_user]: merged=False passed=True
+  control_diffslot_0 [cross_slot]: merged=False passed=True
+  control_empty_0 [empty_input]: merged=False passed=True
+  control_diffuser_0 [cross_user]: merged=False passed=True
+  control_diffslot_0 [cross_slot]: merged=False passed=True
+  control_empty_0 [empty_input]: merged=False passed=True
+  control_diffuser_0 [cross_user]: merged=False passed=True
+  control_diffslot_0 [cross_slot]: merged=False passed=True
+  control_empty_0 [empty_input]: merged=False passed=True
+  control_diffuser_0 [cross_user]: merged=False passed=True
+  control_diffslot_0 [cross_slot]: merged=False passed=True
+  control_empty_0 [empty_input]: merged=False passed=True
+  control_diffuser_0 [cross_user]: merged=False passed=True
+  control_diffslot_0 [cross_slot]: merged=False passed=True
+  control_empty_0 [empty_input]: merged=False passed=True
+  control_diffuser_0 [cross_user]: merged=False passed=True
+  control_diffslot_0 [cross_slot]: merged=False passed=True
+  control_empty_0 [empty_input]: merged=False passed=True
+  control_diffuser_0 [cross_user]: merged=False passed=True
+  control_diffslot_0 [cross_slot]: merged=False passed=True
+  control_empty_0 [empty_input]: merged=False passed=True

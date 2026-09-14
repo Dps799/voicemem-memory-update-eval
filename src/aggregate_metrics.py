@@ -68,7 +68,7 @@ def main():
         fmr = len(nonequiv_merged) / len(nonequiv) if nonequiv else None
         emr = len(equiv_merged) / len(equiv) if equiv else None
         temporal_merge_rate = len(temporal_merged) / len(temporal) if temporal else None
-        merged_error_ratio = len(nonequiv_merged) / len(all_merged) if all_merged else None
+        merged_error_ratio = (len(nonequiv_merged) + len(temporal_merged)) / len(all_merged) if all_merged else None
 
         results[pol_name] = {
             "n_eligible": len(pol),
@@ -84,6 +84,7 @@ def main():
             "EMR": round(emr, 4) if emr is not None else None,
             "EMR_wilson_95": wilson_ci(len(equiv_merged), len(equiv)) if equiv else None,
             "temporal_merge_rate": round(temporal_merge_rate, 4) if temporal_merge_rate is not None else None,
+            "n_error_merged_including_temporal": len(nonequiv_merged) + len(temporal_merged),
             "merged_error_ratio": round(merged_error_ratio, 4) if merged_error_ratio is not None else "N/A (no merges)",
         }
 
@@ -125,8 +126,14 @@ def main():
     boundaries = [r for r in ab if r.get("source") == "synthetic_boundary"]
 
     out = {
+        "schema_version": "0.3",
+        "metric_scope": "development smoke, dataset-derived labels before normalization; not population estimates",
+        "merged_error_ratio_definition": "(non-equivalent merges + temporal-update merges) / all merges; assumes temporal gold forbids merge",
+        "n_unique_sample_ids": len(set(r["sample_id"] for r in rows)),
         "n_total_results": len(rows),
         "n_ab_eligible": len(eligible),
+        "n_execution_errors": sum(r.get("error") is not None for r in rows),
+        "order_consistency_scope": "merge decision only; does not establish claim/evidence/state invariance",
         "policies": results,
         "order_consistency": order_check,
         "control_dimension_checks": control_check,

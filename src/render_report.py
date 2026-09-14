@@ -1,0 +1,55 @@
+"""Render audit report from current machine-readable results, no handwritten counts."""
+import json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+
+def main():
+    a=json.loads((ROOT/'reports/metrics.json').read_text())
+    b=json.loads((ROOT/'reports/replay_metrics.json').read_text())
+    lines=['# VoiceMem 测评修订审计', '',
+    '本轮修复基于远端 `3302a96`，使用固定 E5 revision 在 CPU 实际重跑。旧报告与原始结果保存在 [archive/3302a96](archive/3302a96/)。', '',
+    '## 结论与边界', '',
+    '已确认开发样本存在不同判断被合并、旧 claim 与新证据共存的案例；尚未测量回答正确率、长期遗忘效果或完整语音系统性能。正式 600 对测试集尚未执行。', '',
+    '阶段 A 是直接写入 TraitStore 的强制同 slot 压力测试；原始数据集标签没有针对规范化后的文本重新独立标注。因此这里的误合并率以现有 gold 为条件，不能外推为生产错误率。', '',
+    '阶段 B 使用原提交的 10 个更新，按文件来源标识计算为 **5 个 persona**。old/new 从已提交结果恢复；证据、时间戳、自然问题和 20 条背景偏好为明确标记的诊断构造，不是原始对话回放或官方 benchmark。所有条件共享这 10 个更新，不能把重复测量当作独立样本。', '',
+    '## 修复内容', '',
+    '- C1 真正随机复用同 user/slot 的 ID，保留 incoming evidence；记录所有随机选择，使用三种子。只用开发集 B0 eligible 合并率校准，期望数量匹配而非强制相同数量。',
+    '- 合并样本也检查证据：区分数据库关联正确与旧 claim / 新证据的语义冲突候选；不再将未检查的合并样本计为“无错挂”。',
+    '- 新旧判断按存储/呈现的 claim 文本判定，避免同一 ID 同时被认定为新旧内容。',
+    '- 原始 top-5 命中只作诊断；实际画像指导文本经过原版相似度过滤、profile 配额和渲染。',
+    '- 统一错误合并占比口径：非等价误合并与 temporal 合并均进入分子。FMR 仍单独报告非 temporal 的非等价句对。',
+    '- trait 的查询实际沿相同回调使用 `passage: `；不再误写为已运行 `query: `。', '',
+    '## 阶段 A', '',
+    f"{a['n_unique_sample_ids']} 个不同 sample ID（含 3 个控制项），每个策略主指标 42 对；共 {a['n_total_results']} 条运行记录。5 个主要策略各 87 条（42×2＋3），C1 三种子各 45 条。执行错误 {a['n_execution_errors']} 条。", '',
+    '| 策略 | 非等价误合并 | 同义合并 | 偏好更新合并 | 全部合并中错误比例* |',
+    '|---|---:|---:|---:|---:|']
+    for name,m in a['policies'].items():
+        ratio=m['merged_error_ratio']
+        value=f'{ratio:.2%}' if isinstance(ratio,(int,float)) else 'N/A'
+        lines.append(f"| {name} | {m['n_nonequiv_merged_FMR']}/{m['n_nonequiv']} | {m['n_equiv_merged_EMR']}/{m['n_equiv']} | {m['n_temporal_merged']}/{m['n_temporal']} | {value} |")
+    lines += ['', '*按现有 gold，temporal_update 不应复用同一判断；该口径含这些更新的错误合并。旧报告 36% 漏算了 5 个 temporal 合并，修正为 14/25=56%。', '',
+    'B0 的 9/21 FMR 对应描述性 Wilson 95% 区间约 24.5%–63.5%。11/11 同义合并的区间约 74.1%–100%。分层、手工边界样本与 persona 内相关性使这些区间不能代表总体或群组校正后的不确定性。', '',
+    '阶段 A 的 10 个 temporal 对仍全部来自 persona604。AB/BA 的 100% 一致仅针对“是否合并”，不表示保留下来的 claim 或完整数据库状态顺序无关。', '',
+    '## 阶段 B：画像指导文本中的旧判断暴露', '',
+    f"共 {b['n_episodes']} 个更新、{b['n_personas']} 个 persona，{b['n_rows']} 条条件记录：2 策略 × 2 背景规模 × 2 查询方式 × 2 呈现条数 × 10 更新。", '',
+    '以下仅展示自然问题＋20 条背景偏好。以新 claim 本身作 query 的 claim_probe 另存原始结果，不作为自然问题的回答证据。', '',
+    '| 策略 | 画像条数上限 | 旧 claim 进入指导文本 | 新 claim 进入指导文本 | 旧 claim 排第一 |',
+    '|---|---:|---:|---:|---:|']
+    for policy in ['B0_original_095','B1_exact_string']:
+        for budget in (1,3):
+            m=b['conditions'][f'{policy}|background=20|query=natural|budget={budget}']
+            c,n=m['counts'],m['n_episodes']
+            lines.append(f"| {policy} | {budget} | {c['old_claim_in_directive']}/{n} | {c['new_claim_in_directive']}/{n} | {c['old_claim_top1']}/{n} |")
+    lines += ['',
+    'B0 仍有 3/10 次新旧 ID 合并。三个案例的新证据均存在且关联到返回的 ID，属于“旧 claim 与更新证据共存”的冲突候选，不能称为新信息彻底丢失，也不是数据库外键错误。B1 无合并。', '',
+    '自然问题下，B0 呈现旧 claim 的两个案例为尼日利亚成功故事与软件工程趋势；前者伴随新证据，后者未发生合并但旧判断仍被选中。B1 在 3 条上限下也呈现这两个旧 claim。它们支持进一步验证内容冲突与时效过滤，尚不证明最终回答一定错误。', '',
+    '本批样本在 0/20 背景条件下的相关计数相同，背景尚未产生足够竞争；新 claim 的显式召回也很低。不能用这次小型条数扫描声称预算最优或方法优胜。指导文本可能含新 evidence，因此“未出现新 claim”也不等于“没有新信息”。', '',
+    '调用范围：从固定 `brain.py` 用 AST 原样加载 `_rb_trait_hits`、`trait_min_sim`、`_apply_source_quota`、`_render_rb_directive`，候选 top-4、E5 阈值 0.88、profile 配额 3，再取本轮条数上限。未执行 heartnote/左脑联合竞争、完整系统 prompt 或 answerer。这里的条数上限不是 token 成本预算。', '',
+    '## 状态与复现', '',
+    '- 已完成：审计缺陷修复、回归测试、固定样本的真实 E5 阶段 A/B 重跑、机器可读指标与输入/代码/结果哈希。',
+    '- 待执行：独立人工标签复核、跨 persona 正式 dev/test 扩样、完整检索上下文与回复测评、关系门控、长期预算与遗忘、Memora 扩展。收费模型角色与预算仍未配置。', '',
+    '安装 `requirements.txt` 后运行 `bash scripts/reproduce_smoke.sh`；脚本使用提交的 manifest，无需原集群数据目录。可用 `PYTHON=.venv/bin/python` 指定解释器。E5 通过公开仓库匿名下载固定 revision，使用 CPU；本地模型可由 `VOICEMEM_E5_PATH` 指定，使用者须确认版本，运行记录会保存路径。', '',
+    '当前机器实测环境与文件 SHA256 见 [preflight.json](preflight.json)；详细结果见 [metrics.json](metrics.json)、[replay_metrics.json](replay_metrics.json)、[pair_results.jsonl](pair_results.jsonl)、[replay_results.jsonl](replay_results.jsonl)，执行日志见 [run_logs](run_logs/)。原集群的数据源审计 [data_audit.json](data_audit.json) 保留为历史来源记录，本次未重新下载审计完整数据集。', '']
+    (ROOT/'reports/REPORT.md').write_text('\n'.join(lines))
+
+if __name__=='__main__':main()

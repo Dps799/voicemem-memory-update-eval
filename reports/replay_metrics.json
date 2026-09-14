@@ -1,0 +1,289 @@
+{
+  "scope": "development diagnostic; correlated conditions, not independent samples",
+  "n_rows": 160,
+  "n_episodes": 10,
+  "n_personas": 5,
+  "answer_quality_measured": false,
+  "retrieval": {
+    "source_sha256": "5a870b4199076a09ff9bb3f731f2da8c09e01b9e9b36f1dd3a6657b998276736",
+    "execution": "unchanged AST-selected upstream helpers; profile-only",
+    "candidate_top_k": 4,
+    "profile_quota": 3,
+    "minimum_similarity_384": 0.88
+  },
+  "conditions": {
+    "B0_original_095|background=0|query=natural|budget=1": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 3,
+        "new_claim_represented": 7,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 3,
+        "semantic_conflict_candidate": 3,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 2,
+        "new_claim_in_directive": 0,
+        "old_claim_top1": 2,
+        "new_claim_top1": 0
+      },
+      "mean_directive_characters": 24.9
+    },
+    "B0_original_095|background=0|query=natural|budget=3": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 3,
+        "new_claim_represented": 7,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 3,
+        "semantic_conflict_candidate": 3,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 2,
+        "new_claim_in_directive": 0,
+        "old_claim_top1": 2,
+        "new_claim_top1": 0
+      },
+      "mean_directive_characters": 24.9
+    },
+    "B0_original_095|background=0|query=claim_probe|budget=1": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 3,
+        "new_claim_represented": 7,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 3,
+        "semantic_conflict_candidate": 3,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 3,
+        "new_claim_in_directive": 7,
+        "old_claim_top1": 3,
+        "new_claim_top1": 7
+      },
+      "mean_directive_characters": 111.4
+    },
+    "B0_original_095|background=0|query=claim_probe|budget=3": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 3,
+        "new_claim_represented": 7,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 3,
+        "semantic_conflict_candidate": 3,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 8,
+        "new_claim_in_directive": 7,
+        "old_claim_top1": 3,
+        "new_claim_top1": 7
+      },
+      "mean_directive_characters": 161.7
+    },
+    "B0_original_095|background=20|query=natural|budget=1": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 3,
+        "new_claim_represented": 7,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 3,
+        "semantic_conflict_candidate": 3,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 2,
+        "new_claim_in_directive": 0,
+        "old_claim_top1": 2,
+        "new_claim_top1": 0
+      },
+      "mean_directive_characters": 24.9
+    },
+    "B0_original_095|background=20|query=natural|budget=3": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 3,
+        "new_claim_represented": 7,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 3,
+        "semantic_conflict_candidate": 3,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 2,
+        "new_claim_in_directive": 0,
+        "old_claim_top1": 2,
+        "new_claim_top1": 0
+      },
+      "mean_directive_characters": 24.9
+    },
+    "B0_original_095|background=20|query=claim_probe|budget=1": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 3,
+        "new_claim_represented": 7,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 3,
+        "semantic_conflict_candidate": 3,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 3,
+        "new_claim_in_directive": 7,
+        "old_claim_top1": 3,
+        "new_claim_top1": 7
+      },
+      "mean_directive_characters": 111.4
+    },
+    "B0_original_095|background=20|query=claim_probe|budget=3": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 3,
+        "new_claim_represented": 7,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 3,
+        "semantic_conflict_candidate": 3,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 8,
+        "new_claim_in_directive": 7,
+        "old_claim_top1": 3,
+        "new_claim_top1": 7
+      },
+      "mean_directive_characters": 161.7
+    },
+    "B1_exact_string|background=0|query=natural|budget=1": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 0,
+        "new_claim_represented": 10,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 0,
+        "semantic_conflict_candidate": 0,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 1,
+        "new_claim_in_directive": 1,
+        "old_claim_top1": 1,
+        "new_claim_top1": 1
+      },
+      "mean_directive_characters": 24.0
+    },
+    "B1_exact_string|background=0|query=natural|budget=3": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 0,
+        "new_claim_represented": 10,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 0,
+        "semantic_conflict_candidate": 0,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 2,
+        "new_claim_in_directive": 1,
+        "old_claim_top1": 1,
+        "new_claim_top1": 1
+      },
+      "mean_directive_characters": 37.3
+    },
+    "B1_exact_string|background=0|query=claim_probe|budget=1": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 0,
+        "new_claim_represented": 10,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 0,
+        "semantic_conflict_candidate": 0,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 0,
+        "new_claim_in_directive": 10,
+        "old_claim_top1": 0,
+        "new_claim_top1": 10
+      },
+      "mean_directive_characters": 112.5
+    },
+    "B1_exact_string|background=0|query=claim_probe|budget=3": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 0,
+        "new_claim_represented": 10,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 0,
+        "semantic_conflict_candidate": 0,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 8,
+        "new_claim_in_directive": 10,
+        "old_claim_top1": 0,
+        "new_claim_top1": 10
+      },
+      "mean_directive_characters": 195.3
+    },
+    "B1_exact_string|background=20|query=natural|budget=1": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 0,
+        "new_claim_represented": 10,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 0,
+        "semantic_conflict_candidate": 0,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 1,
+        "new_claim_in_directive": 1,
+        "old_claim_top1": 1,
+        "new_claim_top1": 1
+      },
+      "mean_directive_characters": 24.0
+    },
+    "B1_exact_string|background=20|query=natural|budget=3": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 0,
+        "new_claim_represented": 10,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 0,
+        "semantic_conflict_candidate": 0,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 2,
+        "new_claim_in_directive": 1,
+        "old_claim_top1": 1,
+        "new_claim_top1": 1
+      },
+      "mean_directive_characters": 37.3
+    },
+    "B1_exact_string|background=20|query=claim_probe|budget=1": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 0,
+        "new_claim_represented": 10,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 0,
+        "semantic_conflict_candidate": 0,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 0,
+        "new_claim_in_directive": 10,
+        "old_claim_top1": 0,
+        "new_claim_top1": 10
+      },
+      "mean_directive_characters": 112.5
+    },
+    "B1_exact_string|background=20|query=claim_probe|budget=3": {
+      "n_episodes": 10,
+      "n_personas": 5,
+      "counts": {
+        "merged": 0,
+        "new_claim_represented": 10,
+        "evidence_link_integrity": 10,
+        "new_evidence_attached_to_old_id": 0,
+        "semantic_conflict_candidate": 0,
+        "old_id_in_raw_top5": 10,
+        "old_claim_in_directive": 8,
+        "new_claim_in_directive": 10,
+        "old_claim_top1": 0,
+        "new_claim_top1": 10
+      },
+      "mean_directive_characters": 195.3
+    }
+  },
+  "wall_seconds_after_embedding_precompute": 3.387364389374852
+}
